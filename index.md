@@ -22,6 +22,6 @@ These are some links that talk about my work...
 
 [Me, giving a TED talk](https://www.youtube.com/watch?v=OYhnkOPG874)
 
-##Contact
+##Find me on the internet
 
-I sometimes write in [Medium](https://medium.com/@edublancas), but I'm always [tweeting](https://twitter.com/edublancas). If you want to talk about work, check out my [LinkedIn profile](https://mx.linkedin.com/in/edublancas) or download mi [CV](cv.pdf). I have some videos on [YouTube](https://www.youtube.com/user/edublancas/videos)
+I sometimes write in [Medium](https://medium.com/@edublancas), but I'm always [tweeting](https://twitter.com/edublancas). If you want to talk about work, check out my [LinkedIn profile](https://mx.linkedin.com/in/edublancas) or download mi [CV](cv.pdf). I have some videos on [YouTube](https://www.youtube.com/user/edublancas/videos) and code on [Github](https://github.com/edublancas/).
