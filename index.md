@@ -24,4 +24,4 @@ These are some links that talk about my work...
 
 ##Contact
 
-I sometimes write in [Medium](https://medium.com/@edublancas), but I'm always [tweeting](https://twitter.com/edublancas). If you want to talk about work, check out my [LinkedIn profile](https://mx.linkedin.com/in/edublancas). I have some videos on [YouTube](https://www.youtube.com/user/edublancas/videos)
+I sometimes write in [Medium](https://medium.com/@edublancas), but I'm always [tweeting](https://twitter.com/edublancas). If you want to talk about work, check out my [LinkedIn profile](https://mx.linkedin.com/in/edublancas) or download mi [CV](cv.pdf). I have some videos on [YouTube](https://www.youtube.com/user/edublancas/videos)
