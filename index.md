@@ -4,7 +4,7 @@
 
 I'm a Mechatronics Engineer (that's what my diploma says) raised in Mexico City. I've been doing iOS development for a while and now I turned to Data Science. I enjoy applying my technical skills to problems with social impact.
 
-Like the time that I helped to [stop a 9.3 million fraud](http://techcrunch.com/2013/04/14/bringing-down-the-mexican-mafia-how-mexican-hackers-stopped-a-93-million-fraud/). Or when I tried to understand the [causes of home abandonment in Mexico](http://dssg.uchicago.edu/2015/08/13/infonavit-abandonment.html) with a team full of smart people.
+Like the time that I helped to [stop a 9.3 million fraud](http://techcrunch.com/2013/04/14/bringing-down-the-mexican-mafia-how-mexican-hackers-stopped-a-93-million-fraud/). Or when I worked in a project to understand the [causes of home abandonment in Mexico](http://dssg.uchicago.edu/2015/08/13/infonavit-abandonment.html) with a team full of smart people.
 
 ##What's the internet saying about me?
 
