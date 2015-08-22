@@ -1,6 +1,6 @@
 #Hello, this is Eduardo Blancas Reyes
 
-<img src="edublancas.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 50%"></img>
+<img src="edublancas.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 30%"></img>
 
 I'm a Mechatronics Engineer (that's what my diploma says) raised in Mexico City. I've been doing iOS development for a while and now I turned to Data Science. I enjoy applying my technical skills to problems with social impact.
 
