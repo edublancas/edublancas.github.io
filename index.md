@@ -12,17 +12,20 @@ Currently working in the [Computation Institute](https://www.ci.uchicago.edu/) a
 
 These are some links that talk about my work...
 
-[DSSG 2015 Profile](http://dssg.io/2015/05/12/profiles-blancas-giraudy.html)
+[2015 Fellow Profiles: Eduardo Blancas Reyes & Eugenia Giraudy](http://dssg.io/2015/05/12/profiles-blancas-giraudy.html)
 
-[ITESM News](http://www.itesm.mx/wps/wcm/connect/snc/portal+informativo/por+tema/politica/app115_14jun13)
+[Improving Long-Term Financial Soundness by Identifying Causes of Home Abandonment in Mexico](http://dssg.uchicago.edu/2000/03/02/org-infonavit.html)
 
-[World Bank Press Release](http://www.bancomundial.org/es/news/press-release/2013/08/20/winners-innovation-transparency-prize-third-edition)
+[Eduardo Blancas (IMT’15) sobresale en Data Science for Social Good
+](https://egresados.itesm.mx/egresados/plsql/NoticiasPortalNuevo.NPO_Inicio?l_noticia=4591)
 
-[LabCDMX](http://labplc.mx/hackdf-2/)
+[Le ahorran alumnos del Tec de Monterrey al Gobierno Federal 115 MDP](http://www.itesm.mx/wps/wcm/connect/snc/portal+informativo/por+tema/politica/app115_14jun13)
 
-[More on Home abandonment in Mexico](http://dssg.uchicago.edu/2000/03/02/org-infonavit.html)
+[Jurado elige a los ganadores de la 3ª edición del premio a la innovación en transparencia para la mejora de la gestión institucional](http://www.bancomundial.org/es/news/press-release/2013/08/20/winners-innovation-transparency-prize-third-edition)
 
-[Me, giving a TED talk](https://www.youtube.com/watch?v=OYhnkOPG874)
+[HackDF convoca a la ciudadanía a utilizar los datos que las secretarías del GDF generan y recaban con el objetivo de ideas y desarrollar aplicaciones que mejoren la vida en la ciudad](http://hack.labcd.mx/2014-2/)
+
+[Una nueva versión de ciudadanía está disponible, ¿desea actualizar? | Eduardo Blancas | TEDxITESMCCM](https://www.youtube.com/watch?v=OYhnkOPG874)
 
 ##Find me on the internet
 
