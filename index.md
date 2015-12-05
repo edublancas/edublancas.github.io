@@ -16,7 +16,7 @@ These are some links that talk about my work...
 
 [Improving Long-Term Financial Soundness by Identifying Causes of Home Abandonment in Mexico](http://dssg.uchicago.edu/2000/03/02/org-infonavit.html)
 
-Eduardo Blancas (IMT’15) sobresale en Data Science for Social Good – http://www.itesm.mx/wps/wcm/connect/snc/portal+informativo/por+categoria/egresados/not(08sep2015)eduardoblancas
+[Eduardo Blancas (IMT’15) sobresale en Data Science for Social Good](http://bit.ly/1Rw4Ss1)
 
 [Le ahorran alumnos del Tec de Monterrey al Gobierno Federal 115 MDP](http://www.itesm.mx/wps/wcm/connect/snc/portal+informativo/por+tema/politica/app115_14jun13)
 
