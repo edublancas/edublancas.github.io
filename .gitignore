@@ -1,0 +1,10 @@
+**/.DS_Store
+resume/*.tuc
+resume/*.log
+#resume/*.pdf
+resume/*.html
+resume/resume.tex
+resume/*.swo
+resume/*.swp
+resume/*.docx
+resume/*.rtf

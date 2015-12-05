@@ -1,342 +1,168 @@
 <!doctype html>
-<html>
+<html lang='en'>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<style>
-body {
-  font-family: Helvetica, arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.6;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: white;
-  padding: 30px; }
-
-body > *:first-child {
-  margin-top: 0 !important; }
-body > *:last-child {
-  margin-bottom: 0 !important; }
-
-a {
-  color: #4183C4; }
-a.absent {
-  color: #cc0000; }
-a.anchor {
-  display: block;
-  padding-left: 30px;
-  margin-left: -30px;
-  cursor: pointer;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0; }
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 20px 0 10px;
-  padding: 0;
-  font-weight: bold;
-  -webkit-font-smoothing: antialiased;
-  cursor: text;
-  position: relative; }
-
-h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
-  text-decoration: none; }
-
-h1 tt, h1 code {
-  font-size: inherit; }
-
-h2 tt, h2 code {
-  font-size: inherit; }
-
-h3 tt, h3 code {
-  font-size: inherit; }
-
-h4 tt, h4 code {
-  font-size: inherit; }
-
-h5 tt, h5 code {
-  font-size: inherit; }
-
-h6 tt, h6 code {
-  font-size: inherit; }
-
-h1 {
-  font-size: 28px;
-  color: black; }
-
-h2 {
-  font-size: 24px;
-  border-bottom: 1px solid #cccccc;
-  color: black; }
-
-h3 {
-  font-size: 18px; }
-
-h4 {
-  font-size: 16px; }
-
-h5 {
-  font-size: 14px; }
-
-h6 {
-  color: #777777;
-  font-size: 14px; }
-
-p, blockquote, ul, ol, dl, li, table, pre {
-  margin: 15px 0; }
-
-hr {
-  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
-  border: 0 none;
-  color: #cccccc;
-  height: 4px;
-  padding: 0;
+<meta charset='utf-8'>
+<title>index</title><link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css'><style type='text/css'>html, body {overflow-x: initial !important;}html { font-size: 14px; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1rem; line-height: 1.42857143; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); overflow-x: hidden; }
+a:active, a:hover { outline: 0px; }
+::selection { background-color: rgb(181, 214, 252); text-shadow: none; background-position: initial initial; background-repeat: initial initial; }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: pre-wrap; text-align: justify; padding-bottom: 70px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export #write { margin: 0px auto; }
+#write > p:first-child, #write > ul:first-child, #write > pre:first-child, #write > blockquote:first-child, #write > div:first-child { margin-top: 30px; }
+img { max-width: 100%; }
+input, button, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+::before, ::after, * { box-sizing: border-box; }
+#write p, #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write div, #write pre { width: inherit; }
+#write p, #write h1, #write h2, #write h3, #write h4, #write h5, #write h6 { position: relative; }
+h1 { font-size: 2rem; }
+p, .mathjax-block { display: block; -webkit-margin-before: 1rem; -webkit-margin-after: 1rem; -webkit-margin-start: 0px; -webkit-margin-end: 0px; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: bold; font-style: italic; }
+a { cursor: pointer; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; margin: 4px 0px 0px; }
+tr { page-break-inside: avoid; page-break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; page-break-inside: auto; }
+table.md-table td { min-width: 80px; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror-code pre { padding: 0px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+.md-fences, pre.md-fences { font-size: 0.9rem; display: block; page-break-inside: avoid; text-align: left; overflow: visible; white-space: pre; position: relative !important; }
+.md-fences .CodeMirror.cm-s-default.CodeMirror-wrap { top: -1.6em; margin-bottom: -1.6em; }
+.md-fences.mock-cm { white-space: pre-wrap; }
+.footnotes { color: rgb(136, 136, 136); font-size: 0.9rem; padding-top: 1em; padding-bottom: 1em; }
+.footnotes + .footnotes { margin-top: -1em; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background-color: transparent; text-decoration: none; color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1rem; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: normal; text-align: left; box-sizing: content-box; direction: ltr; background-position: initial initial; background-repeat: initial initial; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li p, li .mathjax-block { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; }
+@media print { 
+  html, body { height: 100%; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
 }
-
-body > h2:first-child {
-  margin-top: 0;
-  padding-top: 0; }
-body > h1:first-child {
-  margin-top: 0;
-  padding-top: 0; }
-  body > h1:first-child + h2 {
-    margin-top: 0;
-    padding-top: 0; }
-body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
-  margin-top: 0;
-  padding-top: 0; }
-
-a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
-  margin-top: 0;
-  padding-top: 0; }
-
-h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
-  margin-top: 0; }
-
-li p.first {
-  display: inline-block; }
-li {
-  margin: 0; }
-ul, ol {
-  padding-left: 30px; }
-
-ul :first-child, ol :first-child {
-  margin-top: 0; }
-
-dl {
-  padding: 0; }
-  dl dt {
-    font-size: 14px;
-    font-weight: bold;
-    font-style: italic;
-    padding: 0;
-    margin: 15px 0 5px; }
-    dl dt:first-child {
-      padding: 0; }
-    dl dt > :first-child {
-      margin-top: 0; }
-    dl dt > :last-child {
-      margin-bottom: 0; }
-  dl dd {
-    margin: 0 0 15px;
-    padding: 0 15px; }
-    dl dd > :first-child {
-      margin-top: 0; }
-    dl dd > :last-child {
-      margin-bottom: 0; }
-
-blockquote {
-  border-left: 4px solid #dddddd;
-  padding: 0 15px;
-  color: #777777; }
-  blockquote > :first-child {
-    margin-top: 0; }
-  blockquote > :last-child {
-    margin-bottom: 0; }
-
-table {
-  padding: 0;border-collapse: collapse; }
-  table tr {
-    border-top: 1px solid #cccccc;
-    background-color: white;
-    margin: 0;
-    padding: 0; }
-    table tr:nth-child(2n) {
-      background-color: #f8f8f8; }
-    table tr th {
-      font-weight: bold;
-      border: 1px solid #cccccc;
-      margin: 0;
-      padding: 6px 13px; }
-    table tr td {
-      border: 1px solid #cccccc;
-      margin: 0;
-      padding: 6px 13px; }
-    table tr th :first-child, table tr td :first-child {
-      margin-top: 0; }
-    table tr th :last-child, table tr td :last-child {
-      margin-bottom: 0; }
-
-img {
-  max-width: 100%; }
-
-span.frame {
-  display: block;
-  overflow: hidden; }
-  span.frame > span {
-    border: 1px solid #dddddd;
-    display: block;
-    float: left;
-    overflow: hidden;
-    margin: 13px 0 0;
-    padding: 7px;
-    width: auto; }
-  span.frame span img {
-    display: block;
-    float: left; }
-  span.frame span span {
-    clear: both;
-    color: #333333;
-    display: block;
-    padding: 5px 0 0; }
-span.align-center {
-  display: block;
-  overflow: hidden;
-  clear: both; }
-  span.align-center > span {
-    display: block;
-    overflow: hidden;
-    margin: 13px auto 0;
-    text-align: center; }
-  span.align-center span img {
-    margin: 0 auto;
-    text-align: center; }
-span.align-right {
-  display: block;
-  overflow: hidden;
-  clear: both; }
-  span.align-right > span {
-    display: block;
-    overflow: hidden;
-    margin: 13px 0 0;
-    text-align: right; }
-  span.align-right span img {
-    margin: 0;
-    text-align: right; }
-span.float-left {
-  display: block;
-  margin-right: 13px;
-  overflow: hidden;
-  float: left; }
-  span.float-left span {
-    margin: 13px 0 0; }
-span.float-right {
-  display: block;
-  margin-left: 13px;
-  overflow: hidden;
-  float: right; }
-  span.float-right > span {
-    display: block;
-    overflow: hidden;
-    margin: 13px auto 0;
-    text-align: right; }
-
-code, tt {
-  margin: 0 2px;
-  padding: 0 5px;
-  white-space: nowrap;
-  border: 1px solid #eaeaea;
-  background-color: #f8f8f8;
-  border-radius: 3px; }
-
-pre code {
-  margin: 0;
-  padding: 0;
-  white-space: pre;
-  border: none;
-  background: transparent; }
-
-.highlight pre {
-  background-color: #f8f8f8;
-  border: 1px solid #cccccc;
-  font-size: 13px;
-  line-height: 19px;
-  overflow: auto;
-  padding: 6px 10px;
-  border-radius: 3px; }
-
-pre {
-  background-color: #f8f8f8;
-  border: 1px solid #cccccc;
-  font-size: 13px;
-  line-height: 19px;
-  overflow: auto;
-  padding: 6px 10px;
-  border-radius: 3px; }
-  pre code, pre tt {
-    background-color: transparent;
-    border: none; }
-
-sup {
-    font-size: 0.83em;
-    vertical-align: super;
-    line-height: 0;
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+#write pre.md-meta-block { font-size: 0.8rem; min-height: 2.86rem; white-space: pre; background-color: rgb(204, 204, 204); display: block; background-position: initial initial; background-repeat: initial initial; }
+p > .md-image:only-child { display: inline-block; width: 100%; text-align: center; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.mathjax-block { white-space: pre; padding-bottom: 0.65rem; overflow: hidden; width: 100%; }
+p + .mathjax-block { margin-top: -1.143rem; }
+.mathjax-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: none; box-shadow: none; }
+:focus { outline: none; box-shadow: rgb(79, 172, 249) 0px 0px 2px 3px, rgb(120, 174, 218) 0px 0px 2px inset; }
+.task-list { list-style-type: none; }
+.task-list-item { position: relative; padding-left: 1em; }
+.task-list-item input { position: absolute; top: 0px; left: 0px; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc::after, .md-toc-content::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: bold; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+.md-toc-h6 { margin-left: 12em; }
+@media screen and (max-width: 48em) { 
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 8em; }
+  .md-toc-h6 { margin-left: 9.5em; }
 }
-* {
-	-webkit-print-color-adjust: exact;
+a.md-toc-inner { color: inherit; font-size: inherit; font-style: inherit; font-weight: inherit; text-decoration: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: '.'; }
+.md-tag { opacity: 0.5; }
+h1 .md-tag, h2 .md-tag, h3 .md-tag, h4 .md-tag, h5 .md-tag, h6 .md-tag { font-weight: initial; opacity: 0.35; }
+a.md-header-anchor.md-print-anchor { border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: none !important; background-color: transparent !important; text-shadow: initial !important; background-position: initial initial !important; background-repeat: initial initial !important; }
+
+
+@font-face { font-family: 'Open Sans'; font-style: normal; font-weight: normal; src: local(Open Sans Regular), url(file:///Users/Edu/Library/Application%20Support/abnerworks.Typora/themes/github/400.woff) format(woff); }
+@font-face { font-family: 'Open Sans'; font-style: italic; font-weight: normal; src: local(Open Sans Italic), url(file:///Users/Edu/Library/Application%20Support/abnerworks.Typora/themes/github/400i.woff) format(woff); }
+@font-face { font-family: 'Open Sans'; font-style: normal; font-weight: bold; src: local(Open Sans Bold), url(file:///Users/Edu/Library/Application%20Support/abnerworks.Typora/themes/github/700.woff) format(woff); }
+@font-face { font-family: 'Open Sans'; font-style: italic; font-weight: bold; src: local(Open Sans Bold Italic), url(file:///Users/Edu/Library/Application%20Support/abnerworks.Typora/themes/github/700i.woff) format(woff); }
+html { font-size: 16px; }
+body { font-family: 'Open Sans', 'Clear Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; color: rgb(51, 51, 51); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+#write { max-width: 800px; margin: 0px auto; padding: 20px 30px 40px; }
+#write::after { height: 80px; }
+#write > ul:first-child, #write > ol:first-child { margin-top: 30px; }
+body > :first-child { margin-top: 0px !important; }
+body > :last-child { margin-bottom: 0px !important; }
+a { color: rgb(65, 131, 196); }
+h1, h2, h3, h4, h5, h6 { position: relative; margin-top: 1rem; margin-bottom: 1rem; font-weight: bold; line-height: 1.4; -webkit-font-smoothing: antialiased; cursor: text; }
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor { text-decoration: none; }
+h1 tt, h1 code { font-size: inherit; }
+h2 tt, h2 code { font-size: inherit; }
+h3 tt, h3 code { font-size: inherit; }
+h4 tt, h4 code { font-size: inherit; }
+h5 tt, h5 code { font-size: inherit; }
+h6 tt, h6 code { font-size: inherit; }
+h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height: 1.2; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(238, 238, 238); }
+h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height: 1.225; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(238, 238, 238); }
+h3 { font-size: 1.5em; line-height: 1.43; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1em; }
+h6 { font-size: 1em; color: rgb(119, 119, 119); }
+p, blockquote, ul, ol, dl, table { margin: 0.8em 0px; }
+hr { height: 4px; padding: 0px; margin: 16px 0px; background-color: rgb(231, 231, 231); border-width: 0px 0px 1px; border-style: none none solid; overflow: hidden; box-sizing: content-box; border-bottom-color: rgb(221, 221, 221); }
+body > h2:first-child { margin-top: 0px; padding-top: 0px; }
+body > h1:first-child { margin-top: 0px; padding-top: 0px; }
+body > h1:first-child + h2 { margin-top: 0px; padding-top: 0px; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child { margin-top: 0px; padding-top: 0px; }
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 { margin-top: 0px; padding-top: 0px; }
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p { margin-top: 0px; }
+li p.first { display: inline-block; }
+ul, ol { padding-left: 30px; }
+ul:first-child, ol:first-child { margin-top: 0px; }
+ul:last-child, ol:last-child { margin-bottom: 0px; }
+blockquote { border-left-width: 4px; border-left-style: solid; border-left-color: rgb(221, 221, 221); padding: 0px 15px; color: rgb(119, 119, 119); }
+blockquote blockquote { padding-right: 0px; }
+table { padding: 0px; }
+table tr { border-top-width: 1px; border-top-style: solid; border-top-color: rgb(204, 204, 204); background-color: white; margin: 0px; padding: 0px; }
+table tr:nth-child(2n) { background-color: rgb(248, 248, 248); }
+table tr th { font-weight: bold; border: 1px solid rgb(204, 204, 204); text-align: left; margin: 0px; padding: 6px 13px; }
+table tr td { border: 1px solid rgb(204, 204, 204); text-align: left; margin: 0px; padding: 6px 13px; }
+table tr th:first-child, table tr td:first-child { margin-top: 0px; }
+table tr th:last-child, table tr td:last-child { margin-bottom: 0px; }
+pre.md-fences, .md-fences, code, tt { border: 1px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; font-family: Consolas, 'Liberation Mono', Courier, monospace; padding: 2px 4px 0px; font-size: 0.9em; }
+pre.md-fences, .md-fences { margin-bottom: 15px; margin-top: 15px; padding: 8px 1em 6px; }
+.task-list { padding-left: 0px; }
+.task-list-item { padding-left: 32px; }
+.task-list-item input { top: 4px; left: 8px; }
+@media screen and (min-width: 914px) { 
 }
-@media screen and (min-width: 914px) {
-    body {
-        width: 854px;
-        margin:0 auto;
-    }
+@media print { 
+  table, pre { page-break-inside: avoid; }
+  pre { word-wrap: break-word; }
 }
-@media print {
-	table, pre {
-		page-break-inside: avoid;
-	}
-	pre {
-		word-wrap: break-word;
-	}
-}
+.md-fences { background-color: rgb(248, 248, 248); }
+#write pre.md-meta-block { padding: 1rem; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247, 247); border: 0px; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; color: rgb(119, 119, 119); margin-top: 0px !important; }
+.mathjax-block > .code-tooltip { bottom: 0.375rem; }
+#write > h3.md-focus::before { left: -1.5625rem; top: 0.375rem; }
+#write > h4.md-focus::before { left: -1.5625rem; top: 0.285714286rem; }
+#write > h5.md-focus::before { left: -1.5625rem; top: 0.285714286rem; }
+#write > h6.md-focus::before { left: -1.5625rem; top: 0.285714286rem; }
+.md-image > .md-meta { border: 1px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; font-family: Consolas, 'Liberation Mono', Courier, monospace; padding: 2px 4px 0px; font-size: 0.9em; color: inherit; }
+.md-tag { color: inherit; }
+.md-toc { margin-top: 20px; padding-bottom: 20px; }
+
+
 </style>
-<title>Hello, this is Eduardo Blancas Reyes</title>
-
 </head>
-<body>
-<h1>Hello, this is Eduardo Blancas Reyes</h1>
-
-<p><img src="edublancas.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 30%"></img></p>
-
-<p>I'm a Mechatronics Engineer (that's what my diploma says) born and raised in Mexico City. I've been doing iOS development for a while and now I turned to Data Science. I enjoy applying my technical skills to problems with social impact.</p>
-
-<p>Like the time that I helped to <a href="http://techcrunch.com/2013/04/14/bringing-down-the-mexican-mafia-how-mexican-hackers-stopped-a-93-million-fraud/">stop a 9.3 million fraud</a>. Or when I worked in a project to understand the <a href="http://dssg.uchicago.edu/2015/08/13/infonavit-abandonment.html">causes of home abandonment in Mexico</a> with a team full of smart people.</p>
-
-<p>Currently working in the <a href="https://www.ci.uchicago.edu/">Computation Institute</a> at University of Chicago.</p>
-
-<h2>What's the internet saying about me?</h2>
-
-<p>These are some links that talk about my work...</p>
-
-<p><a href="http://dssg.io/2015/05/12/profiles-blancas-giraudy.html">2015 Fellow Profiles: Eduardo Blancas Reyes &amp; Eugenia Giraudy</a></p>
-
-<p><a href="http://dssg.uchicago.edu/2000/03/02/org-infonavit.html">Improving Long-Term Financial Soundness by Identifying Causes of Home Abandonment in Mexico</a></p>
-
-<p><a href="https://egresados.itesm.mx/egresados/plsql/NoticiasPortalNuevo.NPO_Inicio?l_noticia=4591">Eduardo Blancas (IMT’15) sobresale en Data Science for Social Good
-</a></p>
-
-<p><a href="http://www.itesm.mx/wps/wcm/connect/snc/portal+informativo/por+tema/politica/app115_14jun13">Le ahorran alumnos del Tec de Monterrey al Gobierno Federal 115 MDP</a></p>
-
-<p><a href="http://www.bancomundial.org/es/news/press-release/2013/08/20/winners-innovation-transparency-prize-third-edition">Jurado elige a los ganadores de la 3ª edición del premio a la innovación en transparencia para la mejora de la gestión institucional</a></p>
-
-<p><a href="http://hack.labcd.mx/2014-2/">HackDF convoca a la ciudadanía a utilizar los datos que las secretarías del GDF generan y recaban con el objetivo de ideas y desarrollar aplicaciones que mejoren la vida en la ciudad</a></p>
-
-<p><a href="https://www.youtube.com/watch?v=OYhnkOPG874">Una nueva versión de ciudadanía está disponible, ¿desea actualizar? | Eduardo Blancas | TEDxITESMCCM</a></p>
-
-<h2>Find me on the internet</h2>
-
-<p>I sometimes write in <a href="https://medium.com/@edublancas">Medium</a>, but I'm always <a href="https://twitter.com/edublancas">tweeting</a>. If you want to talk about work, check out my <a href="https://mx.linkedin.com/in/edublancas">LinkedIn profile</a> or download mi <a href="cv.pdf">CV</a>. I have some videos on <a href="https://www.youtube.com/user/edublancas/videos">YouTube</a> and code on <a href="https://github.com/edublancas/">Github</a>.</p>
-</body>
+<body class='typora-export' >
+<div  id='write' class = 'is-mac'><h1><a name='header-c1' class='md-header-anchor '></a>Hello, this is Eduardo Blancas Reyes</h1><p><img src="edublancas.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 30%"></img></p><p>I&#39;m a Mechatronics Engineer (that&#39;s what my diploma says) born and raised in Mexico City. I&#39;ve been doing iOS development for a while and now I turned to Data Science. I enjoy applying my technical skills to problems with social impact.</p><p>Like the time that I helped to <a href='http://techcrunch.com/2013/04/14/bringing-down-the-mexican-mafia-how-mexican-hackers-stopped-a-93-million-fraud/'   >stop a 9.3 million fraud</a>. Or when I worked in a project to understand the <a href='http://dssg.uchicago.edu/2015/08/13/infonavit-abandonment.html'   >causes of home abandonment in Mexico</a> with some cool folks.</p><p>Currently working in the <a href='https://www.ci.uchicago.edu/'   >Computation Institute</a> at University of Chicago.</p><h2><a name='header-c10' class='md-header-anchor '></a>What&#39;s the internet saying about me?</h2><p>These are some links that talk about my work...</p><p><a href='http://dssg.io/2015/05/12/profiles-blancas-giraudy.html'   >2015 Fellow Profiles: Eduardo Blancas Reyes &amp; Eugenia Giraudy</a></p><p><a href='http://dssg.uchicago.edu/2000/03/02/org-infonavit.html'   >Improving Long-Term Financial Soundness by Identifying Causes of Home Abandonment in Mexico</a></p><p><a href='http://www.itesm.mx/wps/wcm/connect/snc/portal+informativo/por+categoria/egresados/not(08sep2015'   >Eduardo Blancas (IMT’15) sobresale en Data Science for Social Good</a>eduardoblancas)</p><p><a href='http://www.itesm.mx/wps/wcm/connect/snc/portal+informativo/por+tema/politica/app115_14jun13'   >Le ahorran alumnos del Tec de Monterrey al Gobierno Federal 115 MDP</a></p><p><a href='http://www.bancomundial.org/es/news/press-release/2013/08/20/winners-innovation-transparency-prize-third-edition'   >Jurado elige a los ganadores de la 3ª edición del premio a la innovación en transparencia para la mejora de la gestión institucional</a></p><p><a href='http://hack.labcd.mx/2014-2/'   >HackDF convoca a la ciudadanía a utilizar los datos que las secretarías del GDF generan y recaban con el objetivo de ideas y desarrollar aplicaciones que mejoren la vida en la ciudad</a></p><p><a href='https://www.youtube.com/watch?v=OYhnkOPG874'   >Una nueva versión de ciudadanía está disponible, ¿desea actualizar? | Eduardo Blancas | TEDxITESMCCM</a></p><h2><a name='header-c19' class='md-header-anchor '></a>Find me on the internet</h2><p>I sometimes write in <a href='https://medium.com/@edublancas'   >Medium</a>, but I&#39;m always <a href='https://twitter.com/edublancas'   >tweeting</a>. If you want to talk about work, check out my <a href='https://mx.linkedin.com/in/edublancas'   >LinkedIn profile</a> or download mi <a href='cv.pdf'   >CV</a>. I have some videos on <a href='https://www.youtube.com/user/edublancas/videos'   >YouTube</a> and code on <a href='https://github.com/edublancas/'   >Github</a>.</p></div>
+<div style='display:none;'>undefined</div></body>
 </html>
