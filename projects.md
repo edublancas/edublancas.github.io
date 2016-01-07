@@ -1,3 +1,5 @@
+[Go back](index.html)
+
 # Projects
 
 These are some of my projects.
@@ -91,3 +93,5 @@ Fritime is a startup that developed a mobile application to let groups of friend
 During the first year I was in charge of the entire software stack which included an iOS application, a web client and the API. During the last months I focused on the backend side as well as managing the technical team (3 people). Unfortunately, we were not able to grow as we needed to be profitable, furthermore, my cofounder and I had different ideas on how to pivot and which type of clients to pursue. I left my position in May 2015.
 
 ------
+
+[Go back](index.html)
