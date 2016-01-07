@@ -16,4 +16,4 @@ I sometimes write in [Medium](https://medium.com/@edublancas), but I'm always [t
 
 ---
 
-​							I did this using [Typora](http://www.typora.io/).
+​I did this using [Typora](http://www.typora.io/).
