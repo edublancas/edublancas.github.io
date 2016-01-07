@@ -29,3 +29,10 @@ These are some links that talk about my work...
 ## Find me on the internet
 
 I sometimes write in [Medium](https://medium.com/@edublancas), but I'm always [tweeting](https://twitter.com/edublancas). If you want to talk about work, check out my [LinkedIn profile](https://mx.linkedin.com/in/edublancas) or download my [resume](resume/resume.pdf). I have some videos on [YouTube](https://www.youtube.com/user/edublancas/videos) and code on [Github](https://github.com/edublancas/).
+
+
+
+---
+
+I did this using [Typora](http://www.typora.io/).
+
