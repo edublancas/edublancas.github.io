@@ -1,4 +1,4 @@
-[Projects](projects.html)		 [Medium](https://medium.com/@edublancas)		[LinkedIn](https://mx.linkedin.com/in/edublancas)		[Resume](resume/resume.pdf)		[Github](https://github.com/edublancas/)		[YouTube](https://www.youtube.com/user/edublancas/videos)
+[Projects](projects.html)		[Resume](resume/resume.pdf)		[LinkedIn](https://mx.linkedin.com/in/edublancas)		[Github](https://github.com/edublancas/)		[Medium](https://medium.com/@edublancas)		[Twitter](https://twitter.com/edublancas)
 
 # Hello, this is Eduardo Blancas Reyes
 
