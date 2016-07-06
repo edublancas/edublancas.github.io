@@ -1,0 +1,174 @@
+{
+  "basics": {
+    "name": "Eduardo Blancas Reyes",
+    "email": "edu.blancas@gmail.com",
+    "website": "http://edublancas.github.io/",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "edublancas",
+        "url": "https://www.linkedin.com/in/edublancas"
+      },
+      {
+        "network": "Github",
+        "username": "edublancas",
+        "url": "https://github.com/edublancas"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Center for Data Science and Public Policy (University of Chicago)",
+      "position": "Data Science Fellow",
+      "website": "http://dsapp.uchicago.edu/",
+      "startDate": "2015-05-01",
+      "endDate": "2016-06-01",
+      "summary": "The Center for Data Science and Public Policy is an initiative of The University of Chicago to promote the use of Data Science in policy research and practice.",
+      "highlights": [
+        "Infonavit",
+        "Cincinnati"
+      ]
+    },
+    {
+      "company": "Fritime",
+      "position": "CTO and co-founder",
+      "startDate": "2014-01-01",
+      "endDate": "2015-05-01",
+      "summary": "Fritime is a Mexican startup that helps users discover new venues based on its interests through a mobile application.",
+      "highlights": [
+        "Lead development team",
+        "Fullstack developer",
+        "iOS developer"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Stanford University",
+      "position": "Volunteer",
+      "website": "http://crowdcourse.stanford.edu/",
+      "startDate": "2016-05-01",
+      "endDate": "2016-05-15",
+      "summary": "Description...",
+      "highlights": [
+        "Stuff I did"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Monterrey Institute of Technology and Higher Education",
+      "area": "Mechatronics Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2011",
+      "endDate": "2015",
+      "gpa": "92/100"
+    },
+    {
+      "institution": "University of Barcelona",
+      "area": "Smart Cities and Universal Design",
+      "studyType": "Certificate",
+      "startDate": "Winter 2014",
+      "endDate": "Winter 2014",
+      "gpa": "100/100"
+    }
+  ],
+  "awards": [
+    {
+      "title": " Academic talent scholarship during my 9 semesters in college",
+      "startDate": "2011",
+      "endDate": "2015",
+      "awarder": "Monterrey Institute of Technology and Higher Education",
+      "summary": "40% tuition waiver (maximum amount)"
+    },
+    {
+      "title": "CENEVAL National Performance Excellence Award",
+      "date": "2015",
+      "awarder": "CENEVAL",
+      "summary": "There is no spoon."
+    },
+    {
+      "title": "1st Place in HackDF",
+      "date": "2014",
+      "awarder": "Mexico City's Head of Government",
+      "summary": "More than 100 teams"
+    },
+    {
+      "title": "Honorific Mention 3rd Prize to Innovation in Transparency",
+      "date": "2013",
+      "awarder": "World Bank, INAI",
+      "summary": "Unique non-organization participant recognized"
+    },
+    {
+      "title": "Honorific Mention in App 115 Challenge",
+      "date": "2011",
+      "awarder": "Mexico's Chamber of Deputies",
+      "summary": "Stuff"
+    },
+    {
+      "title": "Physics and Mathematics Honors Program",
+      "date": "2011",
+      "awarder": "Monterrey Institute of Technology and Higher Education",
+      "summary": "Stuff"
+    }
+  ],
+  "publications": [
+    {
+      "name": "K. Ackermann, E. Blancas Reyes, S. He, T. Anderson Keller, P. van der Boor. R. Khan, R. Ghani. Designing Policy Recommendations to Reduce Home Abandonment in Mexico. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, KDD ’16. [Accepted but not published yet]"
+    },
+    {
+      "name": "E. Blancas Reyes, J. Helsby, K. Rasch, T. Kaufmann, P. van der Boor, L. Haynes, R. Ghani. Early detection of properties at risk of blight using spatiotemporal data. Data for Policy 2016 - Frontiers of Data Science for Government: Ideas, Practices, and Projections. University of Cambridge. [In review]"
+    }
+  ],
+  "skills": [
+    {
+      "name": "iOS Development",
+      "level": "Proficient",
+      "keywords": [
+        "Objective-C"
+      ]
+    },
+    {
+      "name": "Scientific Python",
+      "level": "Proficient",
+      "keywords": [
+        "sklearn",
+        "numpy",
+        "pandas",
+        "scipy",
+        "matplotlib"
+      ]
+    },
+    {
+      "name": "Others",
+      "keywords": [
+        "docker",
+        "mongodb",
+        "postgresql",
+        "postgis",
+        "unix"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "Spanish",
+      "level": "Native speaker"
+    },
+    {
+      "name": "English",
+      "level": "Advanced - TOEFL 108/120"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Data Science for Social Good"
+    },
+    {
+      "name": "Reproducible Data Science"
+    },
+    {
+      "name": "Automatic Machine Learning"
+    }
+  ]
+}

@@ -1,10 +1,7 @@
 **/.DS_Store
-resume/*.tuc
-resume/*.log
-#resume/*.pdf
-resume/*.html
+resume/resume.docx
+resume/resume.html
+resume/resume.log
+resume/resume.rtf
 resume/resume.tex
-resume/*.swo
-resume/*.swp
-resume/*.docx
-resume/*.rtf
+resume/resume.tuc
