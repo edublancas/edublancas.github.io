@@ -8,7 +8,7 @@ I'm a Mechatronics Engineer (that's what my diploma says) born and raised in Mex
 
 Like the time that I helped to [stop a 9.3 million fraud](http://techcrunch.com/2013/04/14/bringing-down-the-mexican-mafia-how-mexican-hackers-stopped-a-93-million-fraud/). Or when I worked in a project to understand the [causes of home abandonment in Mexico](http://dssg.uchicago.edu/2015/08/13/infonavit-abandonment.html) with some cool folks.
 
-I co-founded a (failed) startup, then worked in the [Center for Data Science and Public Policy](http://dsapp.org/) at The University of Chicago. I'm currently a Backend Engineer at [Krieger](http://krieger.mx).
+I co-founded a (failed) startup, worked in the [Center for Data Science and Public Policy](http://dsapp.org/) at The University of Chicago. I'm currently a Backend Engineer at [Krieger](http://krieger.mx).
 
 ## Find me on the internet
 
