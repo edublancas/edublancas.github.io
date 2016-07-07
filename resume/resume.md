@@ -38,7 +38,7 @@ May 2015 - June 2016
     * Data Pipeline development using Python, PostgreSQL, PostGIS and Docker
     * Designed a Machine Learning model for Infonavit (largest mortgage provider in Mexico) to predict home abandonment. Worked with more than 100GB of data.
     * Designed a Machine Learning model for the City of Cincinnati to find properties at risk of blight using spatiotemporal data. Worked with more than 50GB of data.
-    
+
 
 
 January 2014 - May 2015
@@ -55,7 +55,7 @@ June 2011 - January 2014
 
 ## Publications
 
--   K. Ackermann, **E. Blancas Reyes**, S. He, T. Anderson Keller, P. van der Boor. R. Khan, R. Ghani. Designing Policy Recommendations to Reduce Home Abandonment in Mexico. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, KDD ’16. [Accepted but not published yet]
+-   K. Ackermann, **E. Blancas Reyes**, S. He, T. Anderson Keller, P. van der Boor. R. Khan, R. Ghani. Designing Policy Recommendations to Reduce Home Abandonment in Mexico. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, KDD ’16.
 -   **E. Blancas Reyes**, J. Helsby, K. Rasch, T. Kaufmann, P. van der Boor, L. Haynes, R. Ghani. Early detection of properties at risk of blight using spatiotemporal data. Data for Policy 2016 - Frontiers of Data Science for Government: Ideas, Practices, and Projections. University of Cambridge. [Accepted but not published yet]
 
 ## Volunteering/Open Source
@@ -74,6 +74,7 @@ June 2011 - January 2014
 -   2011 – Honorific Mention in *App 115* Challenge (Mexico's Chamber of Deputies)
 -   2011 – Physics and Mathematics Honors Program at Monterrey Tech
 
+
 Skills
 ----------------------------------------
 
@@ -85,6 +86,7 @@ Intermediate
 
 Basic
 :    C, Matlab, Java, Docker, MongoDB, Apache Spark, Android
+
 
 Press
 ----------------------------------------
