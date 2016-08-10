@@ -58,7 +58,7 @@ January 2014 - May 2015
 June 2011 - January 2014
 :   **Independent Mobile App Developer**. Mexico City.
 
-    * Developed several mobile 'civic apps' for iOS, which helped user access public information (e.g. traffic law) to prevent corruption
+    * Developed several 'civic apps' for iOS to ease access to legal regulations (e.g. traffic law) to prevent corruption
     * My work has been covered in major media sources and recognized by institutions such as the World Bank and the Federal Government of Mexico
 
 ## Publications
