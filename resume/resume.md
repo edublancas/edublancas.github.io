@@ -37,33 +37,34 @@ Experience
 June 2016 - Present
 :   **Backend Engineer**. *Krieger*. Mexico City.
 
-    * RESTful Web Services development using Scala and Python
+    * RESTful Web Services development using Python
+    * Engineered a Content Management System for an insurance company
 
 May 2015 - June 2016
 :   **Data Science Fellow**. Center for Data Science and Public Policy. *The University of Chicago.* Chicago, IL.
 
-    * Data Pipeline development using Python, PostgreSQL, PostGIS and Docker
-    * Designed a Machine Learning model for Infonavit (largest mortgage provider in Mexico) to predict home abandonment. Worked with more than 100GB of data.
-    * Designed a Machine Learning model for the City of Cincinnati to find properties at risk of blight using spatiotemporal data. Worked with more than 50GB of data.
+    * Built a Data Pipeline using Python, PostgreSQL, PostGIS and Docker
+    * Designed a predictive model for Infonavit (largest mortgage provider in Mexico) to predict home abandonment. Worked with more than 100GB of data.
+    * Developed a Machine Learning model for the City of Cincinnati to find properties at risk of blight using spatiotemporal data. Worked with more than 50GB of data.
 
 
 
 January 2014 - May 2015
 :   **CTO and co-founder**. Fritime. Mexico City.
 
-    * Lead a technical team of 3 people
-    * Full-stack developer: iOS app and RESTful Web Services development
+    * Coordinated a technical team of 3 people
+    * Served as a full-stack enginner for our iOS app.
 
 June 2011 - January 2014
 :   **Independent Mobile App Developer**. Mexico City.
 
     * Developed several mobile 'civic apps' for iOS, which helped user access public information (e.g. traffic law) to prevent corruption
-    * My work was covered in major media sources and recognized by institutions such as the World Bank and the Federal Government of Mexico
+    * My work has been covered in major media sources and recognized by institutions such as the World Bank and the Federal Government of Mexico
 
 ## Publications
 
 -   K. Ackermann, **E. Blancas Reyes**, S. He, T. Anderson Keller, P. van der Boor. R. Khan, R. Ghani. Designing Policy Recommendations to Reduce Home Abandonment in Mexico. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, KDD ’16.
--   **E. Blancas Reyes**, J. Helsby, K. Rasch, T. Kaufmann, P. van der Boor, L. Haynes, R. Ghani. Early detection of properties at risk of blight using spatiotemporal data. Data for Policy 2016 - Frontiers of Data Science for Government: Ideas, Practices, and Projections. University of Cambridge. [Accepted but not published yet]
+-   **E. Blancas Reyes**, J. Helsby, K. Rasch, T. Kaufmann, P. van der Boor, L. Haynes, R. Ghani. Early detection of properties at risk of blight using spatiotemporal data. Data for Policy 2016 - Frontiers of Data Science for Government: Ideas, Practices, and Projections. University of Cambridge.
 
 ## Volunteering/Open Source
 
@@ -76,7 +77,7 @@ June 2016-Present
 May 2016 
 :   [Stanford Crowd Course Initiative](http://crowdcourse.stanford.edu/)
 
-    * I volunteered for to weeks to design the [Practical Machine Learning with Python](http://crowdcourse.stanford.edu/ml.html) course.
+    * Volunteered for to weeks to design the [Practical Machine Learning with Python](http://crowdcourse.stanford.edu/ml.html) course.
     * Designed most of the syllabus and provided code examples using scikit-learn and pandas.
 
 ## Awards
