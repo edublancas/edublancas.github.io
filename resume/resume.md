@@ -1,6 +1,6 @@
 
 Eduardo Blancas Reyes
-============
+=====================
 
 ------------------------------------------------------------------------------
     [edu.blancas@gmail.com](mailto:edu.blancas@gmail.com)
@@ -10,14 +10,21 @@ Eduardo Blancas Reyes
     [https://github.com/edublancas](https://github.com/edublancas)
 ------------------------------------------------------------------------------
 
-
 Education
 ---------
 
-January 2011- May 2015
+January 2011 - May 2015
 :   **B.S. in Mechatronics Engineering**. Monterrey Institute of Technology and Higher Education.
 
     GPA: 92/100. Graduated with outstanding performance in the exit examination.
+
+Additional coursework
+---------------------
+
+August 2016 - May 2017 (expected)
+:   **Postgraduate Diploma in Applied Statistics**. National Autonomous University of Mexico.
+
+    Coursework on inference, sampling, multivariate analysis, regression, categorical data analysis and experimental design. 
 
 Winter 2014
 :   **Smart Cities and Universal Design Certificate**. University of Barcelona.
@@ -30,7 +37,7 @@ Experience
 June 2016 - Present
 :   **Backend Engineer**. *Krieger*. Mexico City.
 
-    * RESTful Web Services development using Scala
+    * RESTful Web Services development using Scala and Python
 
 May 2015 - June 2016
 :   **Data Science Fellow**. Center for Data Science and Public Policy. *The University of Chicago.* Chicago, IL.
@@ -60,8 +67,17 @@ June 2011 - January 2014
 
 ## Volunteering/Open Source
 
-*   June 2016-Present – [sklearn-evaluation](https://github.com/edublancas/sklearn-evaluation) – Python package to evaluate Machine Learning models. Integrates matplotlib and scikit-learn providing a high level API to plot, generate tables and HTML reports.
-*   May 2016 – [Stanford Crowd Course Initiative](http://crowdcourse.stanford.edu/) – During two weeks I volunteered to participate in the development of the [Practical Machine Learning with Python](http://crowdcourse.stanford.edu/ml.html) course. I designed most of the syllabus and provided code examples using scikit-learn and pandas.
+June 2016-Present
+:   [sklearn-evaluation](https://github.com/edublancas/sklearn-evaluation)
+
+    * Python package to evaluate Machine Learning models.
+    * Soon to be migrated to the official [scikit-learn contrib organization](https://github.com/scikit-learn-contrib)
+
+May 2016 
+:   [Stanford Crowd Course Initiative](http://crowdcourse.stanford.edu/)
+
+    * I volunteered for to weeks to design the [Practical Machine Learning with Python](http://crowdcourse.stanford.edu/ml.html) course.
+    * Designed most of the syllabus and provided code examples using scikit-learn and pandas.
 
 ## Awards
 
@@ -73,6 +89,7 @@ June 2011 - January 2014
 -   2013 – Honorific Mention 3rd Prize to Innovation in Transparency (World Bank, INAI)
 -   2011 – Honorific Mention in *App 115* Challenge (Mexico's Chamber of Deputies)
 -   2011 – Physics and Mathematics Honors Program at Monterrey Tech
+
 
 
 Skills

@@ -19,12 +19,13 @@ $if(mainlang)$
 $endif$
 
 \setupcolor[hex]
-\definecolor[titlegrey][h=8C8872]
-\definecolor[sectioncolor][h=1F4E61]
-\definecolor[rulecolor][h=2E6377]
+\definecolor[namecolor][h=C63D0F]
+\definecolor[linkcolor][h=7E8F7C]
+\definecolor[sectioncolor][h=C63D0F]
+\definecolor[rulecolor][h=3B3738]
 
 % Enable hyperlinks
-\setupinteraction[state=start, color=sectioncolor]
+\setupinteraction[state=start, color=linkcolor]
 
 \setuppapersize [$if(papersize)$$papersize$$else$letter$endif$][$if(papersize)$$papersize$$else$letter$endif$]
 \setuplayout    [width=middle, height=middle,
@@ -34,15 +35,26 @@ $endif$
 
 %\setuppagenumbering[location={footer,center}]
 
-\setupbodyfont[10pt, helvetica]
-\setupwhitespace[medium]
+% guide on styles http://wiki.contextgarden.net/Style_Alternatives#Font_Size
+% \tfd, \tfb
+
+% FONT SIZE AND STYLE
+\setupbodyfont[9pt, helvetica]
+% SPACING
+\setupwhitespace[small]
 
 \setupblackrules[width=31mm, color=rulecolor]
 
+
 \setuphead[chapter]      [style=\tfd]
-\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+
+% NAME
+\setuphead[section]      [style=\tfb\bf, color=namecolor, align=middle]
+
+% SECTIONS
 \setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
-                          before={\leavevmode\blackrule\hspace}]
+                          ]%before={\leavevmode\blackrule\hspace}]
+
 \setuphead[subsubsection][style=\bf]
 
 $if(number-sections)$
