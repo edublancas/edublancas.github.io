@@ -24,6 +24,8 @@ Additional coursework
 Postgraduate Diploma in Applied Statistics. August 2016 - May 2017 (expected)
 
 Graduate level coursework on inference, sampling, experimental design among others.
+\
+\
 
 **Universitat de Barcelona**
 
@@ -40,6 +42,8 @@ Professional Experience
 
 * Lead a team of 4 to develop a Content Management System for a back office management company
 * Develop RESTful Web Services using Python and Google Cloud
+\
+\
 
 **Center for Data Science and Public Policy (University of Chicago)**. Chicago, IL.
 
@@ -48,7 +52,8 @@ Professional Experience
 * Built data pipelines using Python, PostgreSQL, PostGIS and Docker
 * Designed a predictive model for Infonavit (largest mortgage provider in Mexico) to predict home abandonment. Worked with more than 100GB of data
 * Developed a Machine Learning model using spatiotemporal data for the City of Cincinnati to identify properties at risk of building code violations. Worked with more than 50GB of data
-
+\
+\
 
 **Fritime**. Mexico City.
 
@@ -57,6 +62,8 @@ Professional Experience
 * Led a technical 3-person team
 * Engineered the iOS app prototype for our seed investment round
 * Programmed web services for our iOS app
+\
+\
 
 **Independent Mobile App Developer**. Mexico City.
 
