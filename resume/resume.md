@@ -12,7 +12,7 @@ Education
 =========
 **Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)**
 
-B.S. in Mechatronics Engineering                  January 2011 - May 2015
+B.S. in Mechatronics Engineering. January 2011 - May 2015
 
 GPA: 92/100. Graduated with honors.
 
@@ -47,7 +47,7 @@ Professional Experience
 
 * Built data pipelines using Python, PostgreSQL, PostGIS and Docker
 * Designed a predictive model for Infonavit (largest mortgage provider in Mexico) to predict home abandonment. Worked with more than 100GB of data
-* Developed a Machine Learning model using spatiotemporal data for the City of Cincinnati to identify properties at risk of blight. Worked with more than 50GB of data
+* Developed a Machine Learning model using spatiotemporal data for the City of Cincinnati to identify properties at risk of building code violations. Worked with more than 50GB of data
 
 
 **Fritime**. Mexico City.
@@ -55,8 +55,8 @@ Professional Experience
 *CTO and co-founder*. January 2014 - May 2015
 
 * Led a technical 3-person team
-* Programmed web services for our iOS app
 * Engineered the iOS app prototype for our seed investment round
+* Programmed web services for our iOS app
 
 **Independent Mobile App Developer**. Mexico City.
 
@@ -100,11 +100,9 @@ Awards
 Skills
 ======
 
-Advanced
-:   Python, R, Objective-C
-
-Intermediate
-:   UNIX, SQL, Bash, PostGIS
-
-Basic
-:    C, Matlab, Java, Docker, MongoDB, Apache Spark
+* Advanced
+    * Python, R, Objective-C
+* Intermediate
+    * UNIX, SQL, Bash, PostGIS
+* Basic
+    * C, Matlab, Java, Docker, MongoDB, Apache Spark
