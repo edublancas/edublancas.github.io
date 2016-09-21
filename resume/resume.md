@@ -10,7 +10,7 @@ Eduardo Blancas Reyes
 
 Education
 =========
-**Instituto Tecnológico y de Estudios Superiores de Monterrey**
+**Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)**
 
 B.S. in Mechatronics Engineering                  January 2011 - May 2015
 
@@ -19,7 +19,7 @@ GPA: 92/100. Graduated with honors.
 Additional coursework
 =====================
 
-**Universidad Nacional Autónoma de México**
+**Universidad Nacional Autónoma de México (UNAM)**
 
 Postgraduate Diploma in Applied Statistics. August 2016 - May 2017 (expected)
 
@@ -31,30 +31,30 @@ Smart Cities and Universal Design Certificate. Winter 2014
 
 Grade: 100/100.
 
-Experience
-==========
+Professional Experience
+=======================
 
 **Krieger**. Mexico City
 
 *Backend Engineer*. June 2016 - Present
 
 * Lead a team of 4 to develop a Content Management System for a back office management company
-* Developed RESTful Web Services using Python and Google Cloud
+* Develop RESTful Web Services using Python and Google Cloud
 
 **Center for Data Science and Public Policy (University of Chicago)**. Chicago, IL.
 
 *Data Science Fellow*. May 2015 - June 2016
 
 * Built data pipelines using Python, PostgreSQL, PostGIS and Docker
-* Designed a predictive model for Infonavit (largest mortgage provider in Mexico) to predict home abandonment. Worked with more than 100GB of data.
-* Developed a Machine Learning model for the City of Cincinnati to find properties at risk of blight using spatiotemporal data. Worked with more than 50GB of data.
+* Designed a predictive model for Infonavit (largest mortgage provider in Mexico) to predict home abandonment. Worked with more than 100GB of data
+* Developed a Machine Learning model using spatiotemporal data for the City of Cincinnati to identify properties at risk of blight. Worked with more than 50GB of data
 
 
 **Fritime**. Mexico City.
 
 *CTO and co-founder*. January 2014 - May 2015
 
-* Lead a technical team of 3 people
+* Led a technical 3-person team
 * Programmed web services for our iOS app
 * Engineered the iOS app prototype for our seed investment round
 
@@ -76,14 +76,14 @@ Volunteering/Open Source
 [sklearn-evaluation](https://github.com/edublancas/sklearn-evaluation).
 June 2016-Present
 
-* Developed Python package to evaluate Machine Learning models.
-* Currently working in the migration to the official [scikit-learn contrib organization](https://github.com/scikit-learn-contrib)
+* Developed Python package to evaluate Machine Learning models
+* Currently working in the migration to the official [scikit-learn contrib organization](https://github.com/scikit-learn-contrib) on Github
 
  [Stanford Crowd Course Initiative](http://crowdcourse.stanford.edu/).
  May 2016
 
-* Volunteered for to weeks to design the [Practical Machine Learning with Python](http://crowdcourse.stanford.edu/ml.html) course.
-* Designed sections of the syllabus and provided code examples using scikit-learn and pandas.
+* Volunteered for two weeks to design the [Practical Machine Learning with Python](http://crowdcourse.stanford.edu/ml.html) course
+* Designed sections of the syllabus and provided code examples using scikit-learn and pandas
 
 Awards
 ======
@@ -104,7 +104,7 @@ Advanced
 :   Python, R, Objective-C
 
 Intermediate
-:   UNIX, SQL, Bash, Scala, PostGIS
+:   UNIX, SQL, Bash, PostGIS
 
 Basic
-:    C, Matlab, Java, Docker, MongoDB, Apache Spark, Android
+:    C, Matlab, Java, Docker, MongoDB, Apache Spark
