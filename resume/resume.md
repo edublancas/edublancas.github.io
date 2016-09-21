@@ -102,7 +102,7 @@ Awards
 -   2014 – 1st Place in HackDF (Mexico City's Government)
 -   2013 – Honorific Mention 3rd Prize to Innovation in Transparency (World Bank, INAI)
 -   2011 – Honorific Mention in *App 115* Challenge (Mexico's Chamber of Deputies)
--   2011 – Physics and Mathematics Honors Program at Monterrey Tech
+-   2011 – Physics and Mathematics Honors Program at Tecnológico de Monterrey
 
 Skills
 ======
