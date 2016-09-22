@@ -21,7 +21,7 @@ Additional coursework
 
 **Universidad Nacional Autónoma de México (UNAM)**
 
-Postgraduate Diploma in Applied Statistics \hfill August 2016 - May 2017 (expected)
+Graduate Certificate in Applied Statistics \hfill August 2016 - May 2017 (expected)
 
 Graduate level coursework on inference, sampling, experimental design among others.
 \
