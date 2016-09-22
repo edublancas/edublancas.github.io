@@ -36,7 +36,7 @@ Grade: 100/100.
 Professional Experience
 -----------------------
 
-**Krieger**. Mexico City
+**Krieger**. Mexico City.
 
 *Backend Engineer* \hfill June 2016 - Present
 
@@ -65,7 +65,7 @@ Professional Experience
 \
 \
 
-**Independent Mobile App Developer** Mexico City. \hfill June 2011 - January 2014
+**Independent Mobile App Developer**. Mexico City. \hfill June 2011 - January 2014
 
 * Developed several 'civic apps' for iOS to provide easy access to legal regulations (e.g. traffic law) to prevent corruption
 
