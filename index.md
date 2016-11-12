@@ -17,10 +17,12 @@ I'm a Mechatronics Engineer (that's what my diploma says) born and raised in Mex
 
 Like the time that I helped to [stop a 9.3 million fraud](http://techcrunch.com/2013/04/14/bringing-down-the-mexican-mafia-how-mexican-hackers-stopped-a-93-million-fraud/). Or when I worked in a project to understand the [causes of home abandonment in Mexico](http://dssg.uchicago.edu/2015/08/13/infonavit-abandonment.html) with some cool folks.
 
-I co-founded a (failed) startup, worked in the [Center for Data Science and Public Policy](http://dsapp.org/) at The University of Chicago.
+I co-founded a (failed) startup and worked in the [Center for Data Science and Public Policy](http://dsapp.org/) at The University of Chicago.
 
 I'm currently learning stats at [IIMAS](http://www.iimas.unam.mx/) and working as Backend Engineer at [Krieger](http://krieger.mx).
 
 ## Find me on the internet
 
 I sometimes write in [Medium](https://medium.com/@edublancas), but I'm always [tweeting](https://twitter.com/edublancas). If you want to talk about work, check out my [LinkedIn profile](https://mx.linkedin.com/in/edublancas) or download my [resume](resume/resume.pdf). I have some videos on [YouTube](https://www.youtube.com/user/edublancas/videos) and code on [Github](https://github.com/edublancas/).
+
+Testing...
