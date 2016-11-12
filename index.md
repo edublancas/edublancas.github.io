@@ -10,7 +10,7 @@ Like the time that I helped to [stop a 9.3 million fraud](http://techcrunch.com/
 
 I co-founded a (failed) startup, worked in the [Center for Data Science and Public Policy](http://dsapp.org/) at The University of Chicago.
 
-I'm currently learning stats at [IIMAS](http://www.iimas.unam.mx/) and a working as Backend Engineer at [Krieger](http://krieger.mx).
+I'm currently learning stats at [IIMAS](http://www.iimas.unam.mx/) and working as Backend Engineer at [Krieger](http://krieger.mx).
 
 ## Find me on the internet
 
