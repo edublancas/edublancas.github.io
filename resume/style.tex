@@ -35,7 +35,7 @@ $endif$
 \setuppapersize [$if(papersize)$$papersize$$else$letter$endif$][$if(papersize)$$papersize$$else$letter$endif$]
 \setuplayout    [width=middle, height=middle,
                  backspace=20mm, cutspace=0mm,
-                 topspace=10mm, bottomspace=15mm,
+                 topspace=15mm, bottomspace=15mm,
                  header=0mm, footer=0mm]
 
 %\setuppagenumbering[location={footer,center}]
@@ -45,19 +45,23 @@ $endif$
 
 % FONT SIZE AND STYLE
 \setupbodyfont[9pt, helvetica]
+
 % SPACING
-\setupwhitespace[small]
+% http://wiki.contextgarden.net/Command/setupwhitespace
+\setupwhitespace[none]
 
 \setupblackrules[width=31mm, color=rulecolor]
 
+% fontsize \tf{a,b,c}
+% http://tex.stackexchange.com/questions/294932/alternative-to-large-large-huge-small-etc-in-context
 
 \setuphead[chapter]      [style=\tfd]
 
 % NAME
-\setuphead[section]      [style=\tfb\bf, color=namecolor, align=middle]
+\setuphead[section]      [style=\tfc\bf, color=namecolor, align=middle]
 
 % SECTIONS
-\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=middle,
                           ]%before={\leavevmode\blackrule\hspace}]
 
 \setuphead[subsubsection][style=\bf]
