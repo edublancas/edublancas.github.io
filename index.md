@@ -1,4 +1,13 @@
-[Projects](projects.html)		[Resume](resume/resume.pdf)		[LinkedIn](https://mx.linkedin.com/in/edublancas)		[Github](https://github.com/edublancas/)		[Medium](https://medium.com/@edublancas)		[Twitter](https://twitter.com/edublancas)
+
+<table width="100%"><tr>
+<th>[Projects](projects.html)</th>
+<th>[Resume](resume/resume.pdf)</th>
+<th>[LinkedIn](https://mx.linkedin.com/in/edublancas)</th>
+<th>[Github](https://github.com/edublancas/)</th>
+<th>[Medium](https://medium.com/@edublancas)</th>
+<th>[Twitter](https://twitter.com/edublancas)</th>
+</tr></table>
+
 
 # Hello, this is Eduardo Blancas Reyes
 
@@ -15,7 +24,3 @@ I'm currently learning stats at [IIMAS](http://www.iimas.unam.mx/) and working a
 ## Find me on the internet
 
 I sometimes write in [Medium](https://medium.com/@edublancas), but I'm always [tweeting](https://twitter.com/edublancas). If you want to talk about work, check out my [LinkedIn profile](https://mx.linkedin.com/in/edublancas) or download my [resume](resume/resume.pdf). I have some videos on [YouTube](https://www.youtube.com/user/edublancas/videos) and code on [Github](https://github.com/edublancas/).
-
----
-
-​I did this using [Typora](http://www.typora.io/).

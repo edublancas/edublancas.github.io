@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+CSS=gothic.css
+
+pandoc -s index.md --css $CSS -o index.html
+pandoc -s projects.md --css $CSS -o projects.html
