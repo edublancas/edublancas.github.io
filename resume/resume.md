@@ -41,6 +41,8 @@ Professional Experience
 *Backend Engineer* \hfill June 2016 - Present
 
 * Lead a team of 4 to develop a Content Management System for a back office management company
+* Set up infrastructure to deploy projects using Continous Delivery
+* Python package development built on top of the App Engine SDK to enhance security and data integrity. The package is used in several ongoing projects
 * Develop RESTful Web Services using Python and Google Cloud
 \
 \
