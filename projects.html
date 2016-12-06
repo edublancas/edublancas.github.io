@@ -1,169 +1,65 @@
-<!doctype html>
-<html lang='en'>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta charset='utf-8'>
-<title>projects</title><link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic' rel='stylesheet' type='text/css'><link href='http://fonts.googleapis.com/css?family=Raleway:600,400&subset=latin,latin-ext' rel='stylesheet' type='text/css'><style type='text/css'>html, body {overflow-x: initial !important;}html { font-size: 14px; }
-body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1rem; line-height: 1.42857143; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); overflow-x: hidden; }
-a:active, a:hover { outline: 0px; }
-::selection { background-color: rgb(181, 214, 252); text-shadow: none; background-position: initial initial; background-repeat: initial initial; }
-#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: pre-wrap; text-align: justify; padding-bottom: 70px; }
-body.typora-export { padding-left: 30px; padding-right: 30px; }
-.typora-export #write { margin: 0px auto; }
-#write > p:first-child, #write > ul:first-child, #write > pre:first-child, #write > blockquote:first-child, #write > div:first-child { margin-top: 30px; }
-img { max-width: 100%; }
-input, button, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; }
-input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
-::before, ::after, * { box-sizing: border-box; }
-#write p, #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write div, #write pre { width: inherit; }
-#write p, #write h1, #write h2, #write h3, #write h4, #write h5, #write h6 { position: relative; }
-h1 { font-size: 2rem; }
-p, .mathjax-block { display: block; -webkit-margin-before: 1rem; -webkit-margin-after: 1rem; -webkit-margin-start: 0px; -webkit-margin-end: 0px; }
-.hidden { display: none; }
-.md-blockmeta { color: rgb(204, 204, 204); font-weight: bold; font-style: italic; }
-a { cursor: pointer; }
-#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; margin: 4px 0px 0px; }
-tr { page-break-inside: avoid; page-break-after: auto; }
-thead { display: table-header-group; }
-table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; page-break-inside: auto; }
-table.md-table td { min-width: 80px; }
-.CodeMirror-placeholder { opacity: 0.3; }
-.CodeMirror-code pre { padding: 0px; }
-.CodeMirror-lines { padding: 0px; }
-div.hr:focus { cursor: none; }
-.md-fences, pre.md-fences { font-size: 0.9rem; display: block; page-break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
-.md-fences .CodeMirror.cm-s-default.CodeMirror-wrap { top: -1.6em; margin-bottom: -1.6em; }
-.md-fences.mock-cm { white-space: pre-wrap; }
-.footnotes { color: rgb(136, 136, 136); font-size: 0.9rem; padding-top: 1em; padding-bottom: 1em; }
-.footnotes + .footnotes { margin-top: -1em; }
-.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background-color: transparent; text-decoration: none; color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1rem; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: normal; text-align: left; box-sizing: content-box; direction: ltr; background-position: initial initial; background-repeat: initial initial; }
-li div { padding-top: 0px; }
-blockquote { margin: 1rem 0px; }
-li p, li .mathjax-block { margin: 0.5rem 0px; }
-li { margin: 0px; position: relative; }
-blockquote > :last-child { margin-bottom: 0px; }
-blockquote > :first-child { margin-top: 0px; }
-.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; }
-@media print { 
-  html, body { height: 100%; }
-  .typora-export * { -webkit-print-color-adjust: exact; }
-}
-.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
-a img, img a { cursor: pointer; }
-#write pre.md-meta-block { font-size: 0.8rem; min-height: 2.86rem; white-space: pre; background-color: rgb(204, 204, 204); display: block; background-position: initial initial; background-repeat: initial initial; }
-p > .md-image:only-child { display: inline-block; width: 100%; text-align: center; }
-#write .MathJax_Display { margin: 0.8em 0px 0px; }
-.mathjax-block { white-space: pre; padding-bottom: 0.65rem; overflow: hidden; width: 100%; }
-p + .mathjax-block { margin-top: -1.143rem; }
-.mathjax-block:not(:empty)::after { display: none; }
-[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: none; box-shadow: none; }
-:focus { outline: none; box-shadow: rgb(79, 172, 249) 0px 0px 2px 3px, rgb(120, 174, 218) 0px 0px 2px inset; }
-.task-list { list-style-type: none; }
-.task-list-item { position: relative; padding-left: 1em; }
-.task-list-item input { position: absolute; top: 0px; left: 0px; }
-.math { font-size: 1rem; }
-.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
-.md-toc-content { position: relative; margin-left: 0px; }
-.md-toc::after, .md-toc-content::after { display: none; }
-.md-toc-item { display: block; color: rgb(65, 131, 196); text-decoration: none; }
-.md-toc-inner:hover { text-decoration: underline; }
-.md-toc-inner { display: inline-block; cursor: pointer; }
-.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: bold; }
-.md-toc-h2 .md-toc-inner { margin-left: 2em; }
-.md-toc-h3 .md-toc-inner { margin-left: 4em; }
-.md-toc-h4 .md-toc-inner { margin-left: 6em; }
-.md-toc-h5 .md-toc-inner { margin-left: 8em; }
-.md-toc-h6 .md-toc-inner { margin-left: 10em; }
-.md-toc-h6 { margin-left: 12em; }
-@media screen and (max-width: 48em) { 
-  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
-  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
-  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
-  .md-toc-h5 .md-toc-inner { margin-left: 8em; }
-  .md-toc-h6 { margin-left: 9.5em; }
-}
-a.md-toc-inner { color: inherit; font-size: inherit; font-style: inherit; font-weight: inherit; text-decoration: inherit; line-height: inherit; }
-.footnote-line a:not(.reversefootnote) { color: inherit; }
-.md-attr { display: none; }
-.md-fn-count::after { content: '.'; }
-.md-tag { opacity: 0.5; }
-h1 .md-tag, h2 .md-tag, h3 .md-tag, h4 .md-tag, h5 .md-tag, h6 .md-tag { font-weight: initial; opacity: 0.35; }
-a.md-header-anchor.md-print-anchor { border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: none !important; background-color: transparent !important; text-shadow: initial !important; background-position: initial initial !important; background-repeat: initial initial !important; }
-
-
-@font-face { font-family: Ubuntu; font-style: normal; font-weight: normal; src: local(Ubuntu Regular), local(Ubuntu-Regular), url(file:///Users/Edu/Library/Application%20Support/abnerworks.Typora/themes/gothic/Ubuntu-Regular.ttf); }
-@font-face { font-family: Ubuntu; font-style: normal; font-weight: bold; src: local(Ubuntu Bold), local(Ubuntu-Bold), url(file:///Users/Edu/Library/Application%20Support/abnerworks.Typora/themes/gothic/Ubuntu-Bold.ttf); }
-@font-face { font-family: Ubuntu; font-style: italic; font-weight: normal; src: local(Ubuntu Italic), local(Ubuntu-Italic), url(file:///Users/Edu/Library/Application%20Support/abnerworks.Typora/themes/gothic/Ubuntu-Italic.ttf); }
-@font-face { font-family: Ubuntu; font-style: italic; font-weight: bold; src: local(Ubuntu BoldItalic), local(Ubuntu-BoldItalic), url(file:///Users/Edu/Library/Application%20Support/abnerworks.Typora/themes/gothic/Ubuntu-BoldItalic.ttf); }
-@font-face { font-family: Raleway; font-style: normal; font-weight: 400; src: local(Raleway), local(Raleway-Regular), url(file:///Users/Edu/Library/Application%20Support/abnerworks.Typora/themes/gothic/Raleway-Regular.ttf); }
-@font-face { font-family: Raleway; font-style: normal; font-weight: bold; src: local(Raleway SemiBold), local(Raleway-SemiBold), url(file:///Users/Edu/Library/Application%20Support/abnerworks.Typora/themes/gothic/Raleway-SemiBold.ttf); }
-html, body, #write { background-color: rgb(252, 252, 252); font-family: 'Century Gothic', 'Yu Gothic', Raleway, STHeiti, sans-serif; font-weight: 400; background-position: initial initial; background-repeat: initial initial; }
-h1, h2, h3, h4, h5, h6 { color: rgb(17, 17, 17); font-family: 'Century Gothic', 'Yu Gothic', Ubuntu, STHeiti, sans-serif; }
-html { font-size: 16px; }
-#write { max-width: 854px; }
-#write > h1:first-child { margin-top: 2.75rem; }
-#write > h2:first-child { margin-top: 1.75rem; }
-#write > h3:first-child { margin-top: 1rem; }
-#write > h4:first-child { margin-top: 0.5rem; }
-h1 { font-weight: normal; line-height: 4rem; margin: 4rem 0px 1.75rem; padding: 20px 30px; text-align: center; text-transform: uppercase; }
-h2 { font-weight: normal; line-height: 3rem; margin: 3rem 0px 1.9375rem; padding: 0px 30px; text-align: center; text-transform: uppercase; }
-h3 { font-weight: normal; }
-h4 { font-weight: normal; }
-h5 { font-size: 1.125rem; font-weight: normal; }
-h6 { font-size: 1rem; font-weight: bold; }
-p { color: rgb(17, 17, 17); font-size: 1rem; line-height: 1.75rem; margin: 0px 0px 1.25rem; }
-#write > h3.md-focus::before { left: -1.875rem; top: 0.5rem; padding: 2px; }
-#write > h4.md-focus::before { left: -1.875rem; top: 0.3125rem; padding: 2px; }
-#write > h5.md-focus::before { left: -1.875rem; top: 0.25rem; padding: 2px; }
-#write > h6.md-focus::before { left: -1.875rem; top: 0.125rem; padding: 2px; }
-@media screen and (min-width: 48em) { 
-  .h1, h1 { font-size: 3.25rem; }
-  .h2, h2 { font-size: 2.298rem; }
-  .h3, h3 { font-size: 1.625rem; }
-  .h4, h4 { font-size: 1.25rem; }
-  .h5, h5 { font-size: 1.15rem; }
-  .h6, h6 { font-size: 1rem; }
-  #write > h4.md-focus::before, #write > h5.md-focus::before, #write > h6.md-focus::before { top: 1px; }
-  p { font-size: 1.25rem; line-height: 1.8; }
-  table { font-size: 1.25rem; }
-}
-@media screen and (max-width: 48em) { 
-  blockquote { margin-left: 1rem; margin-right: 0px; padding: 0.5em; }
-  .h1, h1 { font-size: 2.827rem; }
-  .h2, h2 { font-size: 1.999rem; }
-  .h3, h3 { font-size: 1.413rem; }
-  .h4, h4 { font-size: 1.25rem; }
-  .h5, h5 { font-size: 1.15rem; }
-  .h6, h6 { font-size: 1rem; }
-}
-a, .md-def-url { color: rgb(153, 0, 0); text-decoration: none; }
-a:hover { text-decoration: underline; }
-table { margin-bottom: 20px; }
-table th, table td { padding: 8px; line-height: 1.25rem; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); }
-table th { font-weight: bold; }
-table thead th { vertical-align: bottom; }
-table caption + thead tr:first-child th, table caption + thead tr:first-child td, table colgroup + thead tr:first-child th, table colgroup + thead tr:first-child td, table thead:first-child tr:first-child th, table thead:first-child tr:first-child td { border-top-width: 0px; }
-table tbody + tbody { border-top-width: 2px; border-top-style: solid; border-top-color: rgb(221, 221, 221); }
-code, pre.md-fences, .md-fences { border: 1px solid rgb(204, 204, 204); padding: 0.1em; font-size: 0.9em; margin-left: 0.2em; margin-right: 0.2em; }
-pre.md-fences { margin: 0px 0px 20px; font-size: 1em; padding: 0.4em 1em 0.3em; }
-.task-list { padding-left: 0px; }
-.task-list-item { padding-left: 2.125rem; }
-.task-list-item input { top: 3px; }
-.task-list-item input::before { content: ''; display: inline-block; width: 1rem; height: 1rem; vertical-align: middle; text-align: center; border: 1px solid gray; background-color: rgb(253, 253, 253); margin-left: 0px; margin-top: -0.5rem; }
-.task-list-item input:checked::before, .task-list-item input[checked]::before { content: '◼'; font-size: 0.8125rem; line-height: 0.9375rem; }
-blockquote { margin: 0px 0px 1.11111rem; padding: 0.5rem 1.11111rem 0px 1.05556rem; border-left-width: 1px; border-left-style: solid; border-left-color: gray; }
-blockquote, blockquote p { line-height: 1.6; color: rgb(111, 111, 111); }
-#write pre.md-meta-block { min-height: 30px; background-color: rgb(248, 248, 248); padding: 1.5em; font-size: 1em; margin: -40px -1000px 2em; color: rgb(153, 153, 153); border-left-width: 1000px; border-left-color: rgb(248, 248, 248); border-left-style: solid; border-right-width: 1000px; border-right-color: rgb(248, 248, 248); border-right-style: solid; background-position: initial initial; background-repeat: initial initial; }
-.MathJax_Display { font-size: 0.9em; margin-top: 0.5em; margin-bottom: 0px; }
-p.mathjax-block, .mathjax-block { padding-bottom: 0px; }
-.mathjax-block > .code-tooltip { bottom: 5px; box-shadow: none; }
-.md-image > .md-meta { padding-left: 0.5em; padding-right: 0.5em; }
-.md-image > img { margin-top: 2px; }
-.md-image > .md-meta:first-of-type::before { padding-left: 4px; }
-
-
-</style>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="minist.css" type="text/css" />
 </head>
-<body class='typora-export' >
-<div  id='write' class = 'is-mac'><p><a href='index.html'   >Go back</a></p><h1><a name='header-c1' class='md-header-anchor '></a>Projects</h1><p>These are some of my projects.</p><h2><a name='header-c7' class='md-header-anchor '></a>Blight Prevention: Building Strong and Healthy Neighborhoods in Cincinnati</h2><p>Center for Data Science and Public Policy, The University of Chicago. November 2015.</p><p><strong>Supervisors</strong></p><p>Rayid Ghani (The University of Chicago)</p><p><strong>Overview</strong> (Taken from <a href='https://www.google.com/url?q=http://dssg.uchicago.edu/project/proactive-blight-reduction-and-neighborhood-revitalization/&sa=D&usg=AFQjCNHlCm0by6KZOm074FlpKRe0ZCTY-Q'   >DSSG website</a>)</p><p>Today, Cincinnati struggles with aging home stock, stifling economic redevelopment in some neighborhoods. Current efforts to enforce the building code citywide are largely reactive, driven by citizen complaints and often occurring too late to salvage the property. Going forward, the city wants to use data to identify declining properties before they endanger public safety and economic development, so that early intervention strategies can prevent further damage and stimulate neighborhood revitalization.</p><p>The Center for Data Science and Public Policy at The University of Chicago is continuing the DSSG summer project, which developed a system that identifies properties at risk of code violations or abandonment which do not have registered complaints, so that Cincinnati can proactively deploy inspectors to these buildings. The system will also identify which of the city’s blight reduction programs are most suited to address specific properties, helping city departments prioritize limited enforcement and legal resources for building code enforcement and rehabilitation.</p><p><strong>Contributions</strong></p><p>Building upon the original summer project, I revamped the data pipeline to make it reproducible and easy to use. The new version can be deployed using Docker. I’m currently working on adding more datasets to the pipeline as well as generating new features to improve the model. The pipeline uses Python for analysis and Bash to automate data acquisition, transformation and loading clean datasets to our PostgresQL database.</p><hr /><h2><a name='header-c17' class='md-header-anchor '></a>Reducing Home Abandonment in Mexico</h2><p>Data Science for Social Good Fellowship, The University of Chicago. May 2015.</p><p><strong>Supervisors</strong></p><p>Romana Khan, Ph.D. (Northwestern University), Paul van der Boor, Ph.D. (McKinsey &amp; Company) and Rayid Ghani (The University of Chicago)</p><p><strong>Overview</strong> (Taken from <a href='https://www.google.com/url?q=http://dssg.uchicago.edu/project/improving-long-term-financial-soundness-by-identifying-causes-of-home-abandonment-in-mexico/&sa=D&usg=AFQjCNFqYFCl1G30NBKoZ6bJFtYiIGSSsw'   >DSSG website</a>)</p><p>Infonavit is the largest provider of mortgages in Mexico, assisting lower-income families that cannot obtain financing from a private institution with acquisition and other housing solutions. Infonavit’s main objective is to increase the quality of life and equity value of Mexican workers and their families through two mandates: providing housing finance and managing workers’ savings. To advance this mission, the organization wants to understand the relationship between policy, social influences, and dwelling abandonment.</p><p>Our project will build upon preliminary results by exploring data from Infonavit, census and home surveys, loans, and social research to discover the factors that most elevate the risk of housing abandonment. DSSG will incorporate these findings into tools and evidence-based recommendations, helping Infonavit offer services and support local policy to mitigate abandonment and improve economic outcomes for the citizens of Mexico. These results may also support better housing value and credit origination for workers, as well as improve portfolio risk management and collection performance for Infonavit so that they can best accomplish their social mission.</p><p><strong>Contributions</strong></p><p>During the first month of the project, I was in charge of cleaning census datasets, I did most of that work using R. Once we had all our data in place, every member of the team tried different approaches and features to improve our models, we used Python and scikit-learn for training. Finally, to provide an interactive way for our partner to use the results, I developed a web application using Flask that estimated home abandonment for the next year given location and loan characteristics. Our results were presented in Data for Good Exchange, an event organized by Bloomberg in September 2015.</p><hr /><h2><a name='header-c27' class='md-header-anchor '></a>SmartSit</h2><p>Tecnológico de Monterrey in collaboration with University of Valencia, OHL, Indra and humaniks. January 2015.</p><p><strong>Supervisors</strong></p><p>Dr. Raúl Crespo Saucedo (Tecnológico de Monterrey) and Dr. Alfredo Victor Mantilla Caeiros (Tecnológico de Monterrey)</p><p><strong>Overview</strong> (Taken from <a href='https://www.google.com/url?q=http://www.indracompany.com/en/sostenibilidad-e-innovacion/proyectos-innovacion/smartsit-resistive-magnetic-sensors-intelligent-tra&sa=D&usg=AFQjCNEBaG2Inlu58Ekz0K1LFI4WLkTBSg'   >Indra’s website</a>)</p><p>The project is focused in the development of systems for sensoring, based in the magnetic characteristics of the vehicles, improving currents methods to obtain traffic parameters and characterizing the vehicles when driving in the road. As result of the project it is expected to obtain a solution capable of replace and/or complement current traffic systems solutions, allowing:</p><ul><li>Counting vehicles, traffic flow, traffic density, punctual speed, detection of driving direction</li><li>Vehicle re-identification, allowing to obtain travelling times, mean speeds in stretches, O/D Matrixes</li><li>Axel-counting in free-flow conditions</li></ul><p><strong>Contributions</strong></p><p>My responsibility for this project was to evaluate WSN (Wireless Sensor Network) equipment, taking into account the project specifications. During four months, my teammate and I evaluated the SmartMesh WirelessHART equipment in different conditions and stress scenarios. We collected and then analyzed data to deliver a reliable diagnostic. The work involved developing an embedded system programmed using C. Data collection was made using a modified version of the manufacturer’s Python SDK. Data analysis was also done with Python and the Scientific Python stack.</p><hr /><h2><a name='header-c43' class='md-header-anchor '></a>GobMX</h2><p>Krieger Electronics and the Federal Government of Mexico. September 2014.</p><p><strong>Overview</strong></p><p>In September 2014, the Federal Government of Mexico launched a challenge to develop a mobile application that would serve citizens to ease legal paperwork. Krieger Electronics entered in such competition and I worked with them as a consultant, due to my prior experience working with government agencies to use mobile technology to improve public services. My team won the challenge and was granted a contract to develop the final product, this was one of the first contracts signed as a result of an open and transparent competition. The  first version was released in early 2016 to millions of citizens all across the country.</p><p><strong>Contributions</strong></p><p>I helped the team to scope the prototype in terms features and user experience. When we started the development I was in charge of our search engine, a feature that helps users find paperwork requirements using common language instead of formal terminology used by government officials. To do that, I scraped website to build a corpus of more than 3,500 paperwork procedures and build the engine using td-idf term weighting.</p><hr /><h2><a name='header-c50' class='md-header-anchor '></a>Fritime</h2><p>Mexico City. January 2014.</p><p><strong>Overview</strong></p><p>Fritime is a startup that developed a mobile application to let groups of friends find new venues based on their common interests using AI. We got seed funding from private investors.</p><p><strong>Contributions</strong></p><p>During the first year I was in charge of the entire software stack which included an iOS application, a web client and the API. During the last months I focused on the backend side as well as managing the technical team (3 people). Unfortunately, we were not able to grow as we needed to be profitable, furthermore, my cofounder and I had different ideas on how to pivot and which type of clients to pursue. I left my position in May 2015.</p><hr /><p><a href='index.html'   >Go back</a></p></div>
-<div style='display:none;'>undefined</div></body>
+<body>
+<p><a href="index.html">Go back</a></p>
+<h1 id="projects">Projects</h1>
+<p>These are some of my projects.</p>
+<h2 id="blight-prevention-building-strong-and-healthy-neighborhoods-in-cincinnati">Blight Prevention: Building Strong and Healthy Neighborhoods in Cincinnati</h2>
+<p>Center for Data Science and Public Policy, The University of Chicago. November 2015.</p>
+<p><strong>Supervisors</strong></p>
+<p>Rayid Ghani (The University of Chicago)</p>
+<p><strong>Overview</strong> (Taken from <a href="https://www.google.com/url?q=http://dssg.uchicago.edu/project/proactive-blight-reduction-and-neighborhood-revitalization/&amp;sa=D&amp;usg=AFQjCNHlCm0by6KZOm074FlpKRe0ZCTY-Q">DSSG website</a>)</p>
+<p>Today, Cincinnati struggles with aging home stock, stifling economic redevelopment in some neighborhoods. Current efforts to enforce the building code citywide are largely reactive, driven by citizen complaints and often occurring too late to salvage the property. Going forward, the city wants to use data to identify declining properties before they endanger public safety and economic development, so that early intervention strategies can prevent further damage and stimulate neighborhood revitalization.</p>
+<p>The Center for Data Science and Public Policy at The University of Chicago is continuing the DSSG summer project, which developed a system that identifies properties at risk of code violations or abandonment which do not have registered complaints, so that Cincinnati can proactively deploy inspectors to these buildings. The system will also identify which of the city’s blight reduction programs are most suited to address specific properties, helping city departments prioritize limited enforcement and legal resources for building code enforcement and rehabilitation.</p>
+<p><strong>Contributions</strong></p>
+<p>Building upon the original summer project, I revamped the data pipeline to make it reproducible and easy to use. The new version can be deployed using Docker. I’m currently working on adding more datasets to the pipeline as well as generating new features to improve the model. The pipeline uses Python for analysis and Bash to automate data acquisition, transformation and loading clean datasets to our PostgresQL database.</p>
+<hr />
+<h2 id="reducing-home-abandonment-in-mexico">Reducing Home Abandonment in Mexico</h2>
+<p>Data Science for Social Good Fellowship, The University of Chicago. May 2015.</p>
+<p><strong>Supervisors</strong></p>
+<p>Romana Khan, Ph.D. (Northwestern University), Paul van der Boor, Ph.D. (McKinsey &amp; Company) and Rayid Ghani (The University of Chicago)</p>
+<p><strong>Overview</strong> (Taken from <a href="https://www.google.com/url?q=http://dssg.uchicago.edu/project/improving-long-term-financial-soundness-by-identifying-causes-of-home-abandonment-in-mexico/&amp;sa=D&amp;usg=AFQjCNFqYFCl1G30NBKoZ6bJFtYiIGSSsw">DSSG website</a>)</p>
+<p>Infonavit is the largest provider of mortgages in Mexico, assisting lower-income families that cannot obtain financing from a private institution with acquisition and other housing solutions. Infonavit’s main objective is to increase the quality of life and equity value of Mexican workers and their families through two mandates: providing housing finance and managing workers’ savings. To advance this mission, the organization wants to understand the relationship between policy, social influences, and dwelling abandonment.</p>
+<p>Our project will build upon preliminary results by exploring data from Infonavit, census and home surveys, loans, and social research to discover the factors that most elevate the risk of housing abandonment. DSSG will incorporate these findings into tools and evidence-based recommendations, helping Infonavit offer services and support local policy to mitigate abandonment and improve economic outcomes for the citizens of Mexico. These results may also support better housing value and credit origination for workers, as well as improve portfolio risk management and collection performance for Infonavit so that they can best accomplish their social mission.</p>
+<p><strong>Contributions</strong></p>
+<p>During the first month of the project, I was in charge of cleaning census datasets, I did most of that work using R. Once we had all our data in place, every member of the team tried different approaches and features to improve our models, we used Python and scikit-learn for training. Finally, to provide an interactive way for our partner to use the results, I developed a web application using Flask that estimated home abandonment for the next year given location and loan characteristics. Our results were presented in Data for Good Exchange, an event organized by Bloomberg in September 2015.</p>
+<hr />
+<h2 id="smartsit">SmartSit</h2>
+<p>Tecnológico de Monterrey in collaboration with University of Valencia, OHL, Indra and humaniks. January 2015.</p>
+<p><strong>Supervisors</strong></p>
+<p>Dr. Raúl Crespo Saucedo (Tecnológico de Monterrey) and Dr. Alfredo Victor Mantilla Caeiros (Tecnológico de Monterrey)</p>
+<p><strong>Overview</strong> (Taken from <a href="https://www.google.com/url?q=http://www.indracompany.com/en/sostenibilidad-e-innovacion/proyectos-innovacion/smartsit-resistive-magnetic-sensors-intelligent-tra&amp;sa=D&amp;usg=AFQjCNEBaG2Inlu58Ekz0K1LFI4WLkTBSg">Indra’s website</a>)</p>
+<p>The project is focused in the development of systems for sensoring, based in the magnetic characteristics of the vehicles, improving currents methods to obtain traffic parameters and characterizing the vehicles when driving in the road. As result of the project it is expected to obtain a solution capable of replace and/or complement current traffic systems solutions, allowing:</p>
+<ul>
+<li>Counting vehicles, traffic flow, traffic density, punctual speed, detection of driving direction</li>
+<li>Vehicle re-identification, allowing to obtain travelling times, mean speeds in stretches, O/D Matrixes</li>
+<li>Axel-counting in free-flow conditions</li>
+</ul>
+<p><strong>Contributions</strong></p>
+<p>My responsibility for this project was to evaluate WSN (Wireless Sensor Network) equipment, taking into account the project specifications. During four months, my teammate and I evaluated the SmartMesh WirelessHART equipment in different conditions and stress scenarios. We collected and then analyzed data to deliver a reliable diagnostic. The work involved developing an embedded system programmed using C. Data collection was made using a modified version of the manufacturer’s Python SDK. Data analysis was also done with Python and the Scientific Python stack.</p>
+<hr />
+<h2 id="gobmx">GobMX</h2>
+<p>Krieger Electronics and the Federal Government of Mexico. September 2014.</p>
+<p><strong>Overview</strong></p>
+<p>In September 2014, the Federal Government of Mexico launched a challenge to develop a mobile application that would serve citizens to ease legal paperwork. Krieger Electronics entered in such competition and I worked with them as a consultant, due to my prior experience working with government agencies to use mobile technology to improve public services. My team won the challenge and was granted a contract to develop the final product, this was one of the first contracts signed as a result of an open and transparent competition. The  first version was released in early 2016 to millions of citizens all across the country.</p>
+<p><strong>Contributions</strong></p>
+<p>I helped the team to scope the prototype in terms features and user experience. When we started the development I was in charge of our search engine, a feature that helps users find paperwork requirements using common language instead of formal terminology used by government officials. To do that, I scraped website to build a corpus of more than 3,500 paperwork procedures and build the engine using td-idf term weighting.</p>
+<hr />
+<h2 id="fritime">Fritime</h2>
+<p>Mexico City. January 2014.</p>
+<p><strong>Overview</strong></p>
+<p>Fritime is a startup that developed a mobile application to let groups of friends find new venues based on their common interests using AI. We got seed funding from private investors.</p>
+<p><strong>Contributions</strong></p>
+<p>During the first year I was in charge of the entire software stack which included an iOS application, a web client and the API. During the last months I focused on the backend side as well as managing the technical team (3 people). Unfortunately, we were not able to grow as we needed to be profitable, furthermore, my cofounder and I had different ideas on how to pivot and which type of clients to pursue. I left my position in May 2015.</p>
+<hr />
+<p><a href="index.html">Go back</a></p>
+</body>
 </html>
