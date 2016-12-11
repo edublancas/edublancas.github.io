@@ -5,7 +5,7 @@ Eduardo Blancas Reyes
 ------------------------------------------------------------------------------
     [edu.blancas@gmail.com](mailto:edu.blancas@gmail.com)
 
-    Website: [https://github.com/edublancas](https://github.com/edublancas)
+    Website: [https://edublancas.github.io](edublancas.github.io)
 ------------------------------------------------------------------------------
 
 Education
