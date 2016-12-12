@@ -86,10 +86,10 @@ June 2016-Present
 * Developed Python package to evaluate Machine Learning models
 * Currently working in the migration to the official [scikit-learn contrib organization](https://github.com/scikit-learn-contrib) on Github
 
- [Stanford Crowd Course Initiative](http://crowdcourse.stanford.edu/).
+ [Stanford Scholar Initiative](http://scholar.stanford.edu).
  May 2016
 
-* Volunteered for two weeks to design the [Practical Machine Learning with Python](http://crowdcourse.stanford.edu/ml.html) course
+* Volunteered for two weeks to design the [Practical Machine Learning with Python](http://scholar.stanford.edu/ml.html) course
 * Designed sections of the syllabus and provided code examples using scikit-learn and pandas
 
 Awards
