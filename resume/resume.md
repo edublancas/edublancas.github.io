@@ -41,6 +41,7 @@ Professional Experience
 *Backend Engineer* \hfill June 2016 - Present
 
 * Lead a team of 4 to develop a Content Management System for a back office management company
+* Build an automated data pipeline to periodically perform record matching in four insurance company's catalogs. Deployment in Google Cloud using Python and Apache Airflow
 * Set up infrastructure to deploy projects using Continous Delivery
 * Develop Python package built on top of the App Engine SDK to enhance security and data integrity. The package is used in several ongoing projects
 * Deploy RESTful Web Services using Python and Google Cloud
