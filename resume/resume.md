@@ -10,41 +10,40 @@ Eduardo Blancas Reyes
 
 Education
 ---------
-**Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)**
 
-B.S. in Mechatronics Engineering \hfill January 2011 - May 2015
+**Columbia University** \hfill  Starting in Fall 2017
 
-GPA: 92/100. Graduated with honors.
+M.S. in Data Science
+\
+\
+**Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)** \hfill January 2011 - May 2015
+
+B.S. in Mechatronics Engineering
+
+GPA: 92/100. Graduated with honors
 
 Additional coursework
 ---------------------
 
-**Universidad Nacional Autónoma de México (UNAM)**
+**Universidad Nacional Autónoma de México (UNAM)** \hfill August 2016 - May 2017 (expected)
 
-Graduate Certificate in Applied Statistics \hfill August 2016 - May 2017 (expected)
+Graduate Certificate in Applied Statistics 
 
 Graduate level coursework on inference, sampling, experimental design among others.
-\
-\
 
-**Universitat de Barcelona**
-
-Smart Cities and Universal Design Certificate \hfill Winter 2014
-
-Grade: 100/100.
 
 Professional Experience
 -----------------------
 
 **Krieger**. Mexico City.
 
-*Backend Engineer* \hfill June 2016 - Present
+*Lead Backend Engineer* \hfill June 2016 - Present
 
-* Lead a team of 4 to develop a Content Management System for a back office management company
-* Build an automated data pipeline to periodically perform record matching in four insurance company's catalogs. Deployment in Google Cloud using Python and Apache Airflow
-* Set up infrastructure to deploy projects using Continous Delivery
-* Develop Python package built on top of the App Engine SDK to enhance security and data integrity. The package is used in several ongoing projects
-* Deploy RESTful Web Services using Python and Google Cloud
+* Oversaw development across projects to ensure code quality, performance and reliabilty
+* Developed internal software tools that are used in several ongoing projects (input validation, software versioning, deployment, user permissions). These tools have reduced development time and increased team's productivity
+* Wrote development guidelines to provide a starting point for new projects (code testing, system design, coding style)
+* Built an automated data pipeline to periodically perform record matching in four insurance company's catalogs. Deployment in Google Cloud using Python and Apache Airflow
+* REST Web Services development using Python and Google Cloud
 \
 \
 
@@ -84,8 +83,7 @@ Volunteering/Open Source
 [sklearn-evaluation](https://github.com/edublancas/sklearn-evaluation).
 June 2016-Present
 
-* Developed Python package to evaluate Machine Learning models
-* Currently working in the migration to the official [scikit-learn contrib organization](https://github.com/scikit-learn-contrib) on Github
+* Developed a Python package to evaluate Machine Learning models
 
  [Stanford Scholar Initiative](http://scholar.stanford.edu).
  May 2016
@@ -108,9 +106,17 @@ Awards
 Skills
 ------
 
-* Advanced
-    * Python, R, Objective-C
-* Intermediate
-    * UNIX, SQL, Bash, PostGIS
-* Basic
-    * C, Matlab, Java, Docker, MongoDB, Apache Spark
+* **Python** (Advanced)
+    - Extensive use of the standard library. Experience doing ETL, Machine Learning (scikit-learn), visualization (matplotlib), data cleaning (pandas, numpy) and web development (flask, jinja)
+* **R** (Advanced)
+    - Statistical modelling with R
+* **Google Cloud** (Advanced)
+    - App Engine, Cloud SQL, Cloud Storage and Cloud Datastore
+* **Objective-C** (Advanced)
+    - iOS App development
+* **UNIX** (Intermediate)
+    - Experience with UNIX-based Operating Systems and the command line (bash and zsh)
+* **SQ**L (PostgreSQL)
+    - Database design and data manipulation, some experience with PostGIS
+* Other skills (Basic):
+    * C, Matlab, Java, Docker, MongoDB, Apache Spark, Amazon EC2
