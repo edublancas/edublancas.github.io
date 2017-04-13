@@ -111,7 +111,7 @@ Skills
 * **R** (Advanced)
     - Statistical modelling with R
 * **Google Cloud** (Advanced)
-    - App Engine, Cloud SQL, Cloud Storage and Cloud Datastore
+    - App Engine (PaaS), Cloud SQL, Cloud Storage and Cloud Datastore (NoSQL DB)
 * **Objective-C** (Advanced)
     - iOS App development
 * **UNIX** (Intermediate)
