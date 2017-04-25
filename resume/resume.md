@@ -116,7 +116,7 @@ Skills
     - iOS App development
 * **UNIX** (Intermediate)
     - Experience with UNIX-based Operating Systems and the command line (bash and zsh)
-* **SQ**L (PostgreSQL)
+* **SQL (PostgreSQL)** (Intermediate)
     - Database design and data manipulation, some experience with PostGIS
 * Other skills (Basic):
     * C, Matlab, Java, Docker, MongoDB, Apache Spark, Amazon EC2
