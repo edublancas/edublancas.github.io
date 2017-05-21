@@ -38,9 +38,9 @@ Professional Experience
 
 **Krieger**. Mexico City.
 
-*Backend Engineer* \hfill June 2016 - Present
+*Lead Backend Engineer* \hfill June 2016 - Present
 
-* Lead a team of 4 to develop a Content Management System for a back office management company
+* Supervise backend team (3 people) to ensure high quality and best practices in our projects
 * Set up infrastructure to deploy projects using Continous Delivery
 * Develop Python package built on top of the App Engine SDK to enhance security and data integrity. The package is used in several ongoing projects
 * Deploy RESTful Web Services using Python and Google Cloud
