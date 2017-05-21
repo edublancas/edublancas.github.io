@@ -39,7 +39,7 @@ Professional Experience
 
 *Lead Backend Engineer* \hfill June 2016 - Present
 
-* Oversaw backend development across projects to ensure code quality, performance and reliabilty
+* Oversaw backend development across projects to ensure code quality, performance and reliability
 * Developed internal software tools that are used in several ongoing projects (input validation, software versioning, deployment, user permissions). These tools have reduced development time and increased team's productivity
 * Wrote development guidelines to provide a starting point for new projects (code testing, system design, coding style)
 * Built an automated data pipeline to periodically perform record matching in four insurance company's catalogs. Deployment in Google Cloud using Python and Apache Airflow
