@@ -25,7 +25,7 @@ GPA: 92/100. Graduated with honors
 Additional coursework
 ---------------------
 
-**Universidad Nacional Autónoma de México (UNAM)** \hfill August 2016 - May 2017 (expected)
+**Universidad Nacional Autónoma de México (UNAM)** \hfill August 2016 - June 2017 (expected)
 
 Graduate Certificate in Applied Statistics 
 
@@ -44,8 +44,8 @@ Professional Experience
 * Wrote development guidelines to provide a starting point for new projects (code testing, system design, coding style)
 * Built an automated data pipeline to periodically perform record matching in four insurance company's catalogs. Deployment in Google Cloud using Python and Apache Airflow
 * REST Web Services development using Python and Google Cloud
-\
-\
+  \
+  \
 
 **Center for Data Science and Public Policy (University of Chicago)**. Chicago, IL.
 
@@ -54,8 +54,8 @@ Professional Experience
 * Built data pipelines using Python, PostgreSQL, PostGIS and Docker
 * Designed a predictive model for Infonavit (largest mortgage provider in Mexico) to predict home abandonment. Worked with more than 100GB of data
 * Developed a Machine Learning model using spatiotemporal data for the City of Cincinnati to identify properties at risk of building code violations. Worked with more than 50GB of data
-\
-\
+  \
+  \
 
 **Fritime**. Mexico City.
 
@@ -64,8 +64,8 @@ Professional Experience
 * Led a technical 3-person team
 * Engineered the iOS app prototype for our seed investment round
 * Programmed web services for our iOS app
-\
-\
+  \
+  \
 
 **Independent Mobile App Developer**. Mexico City. \hfill June 2011 - January 2014
 
