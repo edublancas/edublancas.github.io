@@ -119,4 +119,4 @@ Skills
 * **SQL (PostgreSQL)** (Intermediate)
     - Database design and data manipulation, some experience with PostGIS
 * Other skills (Basic):
-    * C, Matlab, Java, Docker, MongoDB, Apache Spark, Amazon EC2
+    * C, Matlab, Java, Docker, MongoDB, Apache Spark, Amazon EC2, Frontend web development (HTML, CSS, Javascript)
