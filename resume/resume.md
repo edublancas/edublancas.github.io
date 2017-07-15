@@ -94,6 +94,7 @@ June 2016-Present
 Awards
 ------
 
+-   2017 – National Council of Science and Technology scholarship recipient
 -   2016 – Fulbright-García Robles scholarship recipient
 -   2011-2015 – *Academic talent* scholarship for undergraduate studies at Tecnológico de Monterrey
 -   2015 – CENEVAL National Performance Excellence Award
