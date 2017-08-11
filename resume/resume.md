@@ -25,7 +25,7 @@ GPA: 92/100. Graduated with honors
 Additional coursework
 ---------------------
 
-**Universidad Nacional Autónoma de México (UNAM)** \hfill August 2016 - June 2017 (expected)
+**Universidad Nacional Autónoma de México (UNAM)** \hfill August 2016 - June 2017
 
 Graduate Certificate in Applied Statistics 
 
