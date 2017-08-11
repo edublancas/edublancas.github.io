@@ -20,7 +20,7 @@ M.S. in Data Science
 
 B.S. in Mechatronics Engineering
 
-GPA: 92/100. Graduated with honors
+Graduated with honors.
 
 Additional coursework
 ---------------------
@@ -29,7 +29,7 @@ Additional coursework
 
 Graduate Certificate in Applied Statistics 
 
-Graduate level coursework on inference, sampling, experimental design among others.
+Graduate level coursework on inference, sampling, multivariate analysis, experimental design, categorical data analysis, regression modelsa and bayesian statistics.
 
 
 Professional Experience
