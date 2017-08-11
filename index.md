@@ -13,13 +13,13 @@
 
 <img src="edublancas.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 30%"></img>
 
-I'm a Mechatronics Engineer (that's what my diploma says) born and raised in Mexico City. I've been doing iOS development for a while and now I turned to Data Science. I enjoy applying my technical skills to problems with social impact.
+I'm a Mechatronics Engineer (that's what my diploma says) born and raised in Mexico City. I did iOS development for a while and now I turned to Data Science. I enjoy applying my technical skills to problems with social impact.
 
 Like the time that I helped to [stop a 9.3 million fraud](http://techcrunch.com/2013/04/14/bringing-down-the-mexican-mafia-how-mexican-hackers-stopped-a-93-million-fraud/). Or when I worked in a project to understand the [causes of home abandonment in Mexico](http://dssg.uchicago.edu/2015/08/13/infonavit-abandonment.html) with some cool folks.
 
-I co-founded a (failed) startup and worked in the [Center for Data Science and Public Policy](http://dsapp.org/) at The University of Chicago.
+I co-founded a (failed) startup, then moved to the [Center for Data Science and Public Policy](http://dsapp.org/) at The University of Chicago.
 
-I'm currently learning stats at [IIMAS](http://www.iimas.unam.mx/) and working as Backend Engineer at [Krieger](http://krieger.mx).
+I'm starting the M.S. in Data Science program at Columbia in the fall 2017.
 
 ## Find me on the internet
 
