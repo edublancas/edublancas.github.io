@@ -18,9 +18,9 @@ M.S. in Data Science
 \
 **Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)** \hfill January 2011 - May 2015
 
-B.S. in Mechatronics Engineering
+B.S. in Mechatronics Engineering. Graduated with honors.
 
-Graduated with honors.
+Coursework in analog and digital electronics, instrumentation, control theory, embedded systems.
 
 Additional coursework
 ---------------------
