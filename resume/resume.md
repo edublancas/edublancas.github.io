@@ -18,9 +18,9 @@ M.S. in Data Science
 \
 **Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)** \hfill January 2011 - May 2015
 
-B.S. in Mechatronics Engineering
+B.S. in Mechatronics Engineering. Graduated with honors.
 
-GPA: 92/100. Graduated with honors
+Coursework in analog and digital electronics, instrumentation, control theory, embedded systems.
 
 Additional coursework
 ---------------------
@@ -29,7 +29,7 @@ Additional coursework
 
 Graduate Certificate in Applied Statistics 
 
-Graduate level coursework on inference, sampling, experimental design among others.
+Graduate level coursework on inference, sampling, multivariate analysis, experimental design, categorical data analysis, regression modelsa and bayesian statistics.
 
 
 Professional Experience
@@ -94,6 +94,7 @@ June 2016-Present
 Awards
 ------
 
+-   2017 – National Council of Science and Technology scholarship recipient
 -   2016 – Fulbright-García Robles scholarship recipient
 -   2011-2015 – *Academic talent* scholarship for undergraduate studies at Tecnológico de Monterrey
 -   2015 – CENEVAL National Performance Excellence Award
