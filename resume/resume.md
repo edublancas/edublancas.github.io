@@ -3,7 +3,7 @@ Eduardo Blancas Reyes
 =====================
 
 ------------------------------------------------------------------------------
-    [edu.blancas@gmail.com](mailto:edu.blancas@gmail.com)
+    [e.blancas@columbia.edu](mailto:e.blancas@columbia.edu)
 
     [edublancas.github.io](https://edublancas.github.io)
 ------------------------------------------------------------------------------
@@ -11,7 +11,7 @@ Eduardo Blancas Reyes
 Education
 ---------
 
-**Columbia University** \hfill  Starting in Fall 2017
+**Columbia University** \hfill  August 2017 - December 2018 (Expected)
 
 M.S. in Data Science
 \
@@ -25,7 +25,7 @@ GPA: 92/100. Graduated with honors
 Additional coursework
 ---------------------
 
-**Universidad Nacional Autónoma de México (UNAM)** \hfill August 2016 - June 2017 (expected)
+**Universidad Nacional Autónoma de México (UNAM)** \hfill August 2016 - June 2017
 
 Graduate Certificate in Applied Statistics 
 
