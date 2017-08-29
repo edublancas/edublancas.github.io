@@ -3,20 +3,18 @@ Eduardo Blancas Reyes
 =====================
 
 ------------------------------------------------------------------------------
-    [e.blancas@columbia.edu](mailto:e.blancas@columbia.edu)
-
-    [edublancas.github.io](https://edublancas.github.io)
+    [e.blancas@columbia.edu](mailto:e.blancas@columbia.edu) / [edublancas.github.io](https://edublancas.github.io)
 ------------------------------------------------------------------------------
 
 Education
 ---------
 
-**Columbia University** \hfill  August 2017 - December 2018 (Expected)
+**Columbia University** \hfill  Aug 2017 - Dec 2018 (Expected)
 
 M.S. in Data Science
 \
 \
-**Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)** \hfill January 2011 - May 2015
+**Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)** \hfill Jan 2011 - May 2015
 
 B.S. in Mechatronics Engineering. Graduated with honors.
 
@@ -25,19 +23,19 @@ Coursework in analog and digital electronics, instrumentation, control theory, e
 Additional coursework
 ---------------------
 
-**Universidad Nacional Autónoma de México (UNAM)** \hfill August 2016 - June 2017
+**Universidad Nacional Autónoma de México (UNAM)** \hfill Aug 2016 - Jun 2017
 
 Graduate Certificate in Applied Statistics 
 
-Graduate level coursework on inference, sampling, multivariate analysis, experimental design, categorical data analysis, regression modelsa and bayesian statistics.
+Graduate level coursework on inference, sampling, multivariate analysis, experimental design, categorical data analysis, regression models and bayesian inference.
 
 
 Professional Experience
 -----------------------
 
-**Krieger**. Mexico City.
+**Krieger** \hfill Mexico City, MX
 
-*Lead Backend Engineer* \hfill June 2016 - Present
+*Lead Backend Engineer* \hfill Jun 2016 - Aug 2017
 
 * Oversaw backend development across projects to ensure code quality, performance and reliability
 * Developed internal software tools that are used in several ongoing projects (input validation, software versioning, deployment, user permissions). These tools have reduced development time and increased team's productivity
@@ -47,7 +45,7 @@ Professional Experience
   \
   \
 
-**Center for Data Science and Public Policy (University of Chicago)**. Chicago, IL.
+**University of Chicago (Center for Data Science and Public Policy)** \hfill Chicago, IL
 
 *Data Science Fellow* \hfill May 2015 - June 2016
 
@@ -57,9 +55,9 @@ Professional Experience
   \
   \
 
-**Fritime**. Mexico City.
+**Fritime** \hfill Mexico City, MX
 
-*CTO and co-founder* \hfill January 2014 - May 2015
+*CTO and co-founder* \hfill Jan 2014 - May 2015
 
 * Led a technical 3-person team
 * Engineered the iOS app prototype for our seed investment round
@@ -67,7 +65,8 @@ Professional Experience
   \
   \
 
-**Independent Mobile App Developer**. Mexico City. \hfill June 2011 - January 2014
+**Independent Mobile App Developer** \hfill Mexico City, MX
+\hfill Jun 2011 - Jan 2014
 
 * Developed several 'civic apps' for iOS to provide easy access to legal regulations (e.g. traffic law) to prevent corruption
 
@@ -107,17 +106,6 @@ Awards
 Skills
 ------
 
-* **Python** (Advanced)
-    - Extensive use of the standard library. Experience doing ETL, Machine Learning (scikit-learn), visualization (matplotlib), data cleaning (pandas, numpy) and web development (flask, jinja)
-* **R** (Advanced)
-    - Statistical modelling with R
-* **Google Cloud** (Advanced)
-    - App Engine (PaaS), Cloud SQL, Cloud Storage and Cloud Datastore (NoSQL DB)
-* **Objective-C** (Advanced)
-    - iOS App development
-* **UNIX** (Intermediate)
-    - Experience with UNIX-based Operating Systems and the command line (bash and zsh)
-* **SQL (PostgreSQL)** (Intermediate)
-    - Database design and data manipulation, some experience with PostGIS
-* Other skills (Basic):
-    * C, Matlab, Java, Docker, MongoDB, Apache Spark, Amazon EC2, Frontend web development (HTML, CSS, Javascript)
+**Programming languages**: Python, R, Objective-C, SQL.
+
+**Tools and technologies**: scikit-learn, numpy, flask, Google App Engine, Google Cloud Datastore, Google Cloud Storage, PostgreSQL, PostGIS, Docker, MongoDB, Amazon EC2, Amazon S3, Amazon Beanstalk
