@@ -15,24 +15,29 @@ M.S. in Data Science
 \
 \
 
+**Universidad Nacional Autónoma de México (UNAM)** \hfill Aug 2016 - Jun 2017
+
+Graduate Certificate in Applied Statistics 
+
+Relevant coursework: inference, sampling, multivariate analysis, experimental design, categorical data, regression and bayesian inference.
+\
+\
+
 **Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)** \hfill Jan 2011 - May 2015
 
 B.S. in Mechatronics Engineering. Graduated with honors.
 
 Coursework in analog and digital electronics, instrumentation, control theory, embedded systems.
 
-Additional coursework
----------------------
-
-**Universidad Nacional Autónoma de México (UNAM)** \hfill Aug 2016 - Jun 2017
-
-Graduate Certificate in Applied Statistics 
-
-Relevant coursework: inference, sampling, multivariate analysis, experimental design, categorical data, regression and bayesian inference.
-
-
 Professional Experience
 -----------------------
+
+**Columbia University (Grossman Center for the Statistics of Mind)** \hfill New York, NY
+
+*Research Assistant* \hfill Sep 2017 - Present
+
+* Apply Machine Learning to neural data for spike sorting
+* Develop software libraries to share state-of-the-art methods for neural data analysis
 
 **Krieger** \hfill Mexico City, MX
 
@@ -40,16 +45,13 @@ Professional Experience
 
 * Oversaw backend development across projects to ensure code quality, performance and reliability
 * Developed internal software tools that are used in several ongoing projects (input validation, software versioning, deployment, user permissions). These tools have reduced development time and increased team's productivity
-* Wrote development guidelines to provide a starting point for new projects (code testing, system design, coding style)
-* Built an automated data pipeline to periodically perform record matching in four insurance company's catalogs. Deployment in Google Cloud using Python and Apache Airflow
 * REST Web Services development using Python and Google Cloud
 \
 
 **University of Chicago (Center for Data Science and Public Policy)** \hfill Chicago, IL
 
-*Data Science Fellow* \hfill May 2015 - June 2016
+*Data Science Fellow* \hfill May 2015 - Jun 2016
 
-* Built data pipelines using Python, PostgreSQL, PostGIS and Docker
 * Designed a predictive model for Infonavit (largest mortgage provider in Mexico) to predict home abandonment. Worked with more than 100GB of data
 * Developed a Machine Learning model using spatiotemporal data for the City of Cincinnati to identify properties at risk of building code violations. Worked with more than 50GB of data
 
