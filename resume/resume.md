@@ -12,6 +12,8 @@ Education
 **Columbia University** \hfill  Aug 2017 - Dec 2018 (Expected)
 
 M.S. in Data Science
+
+Relevant coursework: Machine Learning with Probabilistic Programming.
 \
 \
 
@@ -34,10 +36,10 @@ Professional Experience
 
 **Columbia University (Grossman Center for the Statistics of Mind)** \hfill New York, NY
 
-*Research Assistant* \hfill Sep 2017 - Present
+*Research Assistant (Advisor: Liam Paninski)* \hfill Sep 2017 - Present
 
-* Apply Machine Learning to neural data for spike sorting
-* Develop software libraries to share state-of-the-art methods for neural data analysis
+* Apply novel Machine Learning tecniques to advance the spike sorting state-of-the-art
+* Develop a fully automated spike sorting software library to analyze data from dense multielectrode arrays using Python, scikit-learn and Tensorflow
 
 **Krieger** \hfill Mexico City, MX
 
@@ -50,7 +52,7 @@ Professional Experience
 
 **University of Chicago (Center for Data Science and Public Policy)** \hfill Chicago, IL
 
-*Data Science Fellow* \hfill May 2015 - Jun 2016
+*Data Science Fellow (Advisor: Rayid Ghani)* \hfill May 2015 - Jun 2016
 
 * Designed a predictive model for Infonavit (largest mortgage provider in Mexico) to predict home abandonment. Worked with more than 100GB of data
 * Developed a Machine Learning model using spatiotemporal data for the City of Cincinnati to identify properties at risk of building code violations. Worked with more than 50GB of data
