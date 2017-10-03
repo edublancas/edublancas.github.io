@@ -20,7 +20,7 @@ After getting my B.S. degree, I moved to the [Center for Data Science and Public
 
 In 2016, I moved back home to do the Applied Statistics program at UNAM-IIMAS and served as *Lead Backend Engineer* at [Krieger](https://krieger.mx/).
 
-I'm now based in New York, NY. Currently pursuing a M.S in Data Science at Columbia University and working as Research Assistant in [Professor Liam Paninki's Lab](http://grossmancenter.columbia.edu/) in the Neuroscience and Statistics department. Interested in Interpretable Machine Learning, AutoML, Deep Learning and Computational Neuroscience.
+I'm now based in New York, NY. Currently pursuing a M.S in Data Science at Columbia University and working as Research Assistant in [Professor Liam Paninki's Lab](http://grossmancenter.columbia.edu/) in the Neuroscience and Statistics department. I'm interested in Interpretable Machine Learning, AutoML, Deep Learning and Computational Neuroscience.
 
 ## Get in touch
 
