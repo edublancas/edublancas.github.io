@@ -21,7 +21,7 @@ Relevant coursework: Machine Learning with Probabilistic Programming.
 
 Graduate Certificate in Applied Statistics 
 
-Relevant coursework: inference, sampling, multivariate analysis, experimental design, categorical data, regression and bayesian inference.
+Relevant coursework: Statistical Inference, Sampling Techniques, Multivariate Analysis, Experimental Design, Categorical Data Analysis, Regression Models and Bayesian Inference.
 \
 \
 
@@ -38,7 +38,7 @@ Professional Experience
 
 *Research Assistant (Advisor: Liam Paninski)* \hfill Sep 2017 - Present
 
-* Apply novel Machine Learning tecniques to advance the spike sorting state-of-the-art
+* Apply novel Machine Learning tecniques to advance the state-of-the art in spike sorting
 * Develop a fully automated spike sorting software library to analyze data from dense multielectrode arrays using Python, scikit-learn and Tensorflow
 
 **Krieger** \hfill Mexico City, MX
@@ -54,8 +54,9 @@ Professional Experience
 
 *Data Science Fellow (Advisor: Rayid Ghani)* \hfill May 2015 - Jun 2016
 
+
+* Developed a Machine Learning model using spatiotemporal data for the City of Cincinnati to identify properties at risk of building code violations. Worked with more than 50GB of data. Engineering a fully automated and reproducible pipeline to process updated datasets
 * Designed a predictive model for Infonavit (largest mortgage provider in Mexico) to predict home abandonment. Worked with more than 100GB of data
-* Developed a Machine Learning model using spatiotemporal data for the City of Cincinnati to identify properties at risk of building code violations. Worked with more than 50GB of data
 
 Publications
 ------------
@@ -66,6 +67,4 @@ Publications
 Skills
 ------
 
-**Programming languages**: Python, R, Objective-C, SQL.
-
-**Tools and technologies**: scikit-learn, numpy, flask, Google App Engine, Google Cloud Datastore, Google Cloud Storage, PostgreSQL, PostGIS, Docker, MongoDB, Amazon EC2, Amazon S3, Amazon Beanstalk
+**Programming languages**: Python, R, Objective-C, SQL. **Tools and technologies**: scikit-learn, numpy, flask, Google App Engine, Google Cloud Datastore, Google Cloud Storage, PostgreSQL, PostGIS, Docker, MongoDB, Amazon EC2, Amazon S3, Amazon Beanstalk
