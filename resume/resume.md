@@ -38,8 +38,8 @@ Professional Experience
 
 *Research Assistant (Advisor: Liam Paninski)* \hfill Sep 2017 - Present
 
-* Apply novel Machine Learning tecniques to advance the state-of-the art in spike sorting
-* Develop a fully automated spike sorting software library to analyze data from dense multielectrode arrays using Python, scikit-learn and Tensorflow
+* Apply novel Machine Learning tecniques to improve spike sorting
+* Develop an automated spike sorting library to analyze data from dense multielectrode arrays using Python, scikit-learn and Tensorflow
 
 **Krieger** \hfill Mexico City, MX
 
@@ -55,7 +55,7 @@ Professional Experience
 *Data Science Fellow (Advisor: Rayid Ghani)* \hfill May 2015 - Jun 2016
 
 
-* Developed a Machine Learning model using spatiotemporal data for the City of Cincinnati to identify properties at risk of building code violations. Worked with more than 50GB of data. Engineering a fully automated and reproducible pipeline to process updated datasets
+* Developed a Machine Learning model using spatiotemporal data for the City of Cincinnati to identify properties at risk of building code violations. Engineering a fully automated and reproducible pipeline to ingest new datasets and update the model. Worked with more than 50GB of data.
 * Designed a predictive model for Infonavit (largest mortgage provider in Mexico) to predict home abandonment. Worked with more than 100GB of data
 
 Publications
