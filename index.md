@@ -12,7 +12,7 @@
 
 <img src="edublancas.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 30%"></img>
 
-Hi, this is Eduardo. I'm Currently pursuing a M.S in Data Science at Columbia University and working as Research Assistant in [Professor Liam Paninki's Lab](http://grossmancenter.columbia.edu/) in the Neuroscience and Statistics department. I'm interested in Machine Learning, Bayesian Inference and Computational Neuroscience.
+Hi, this is Eduardo. I'm Currently pursuing a M.S in Data Science at Columbia University, sponsored by Fulbright and CONACYT. Currently working as Research Assistant in [Professor Liam Paninki's Lab](http://grossmancenter.columbia.edu/) in the Neuroscience and Statistics department. I'm interested in Machine Learning, Bayesian Inference and Computational Neuroscience.
 
 Before Moving to NY, I did the Applied Statistics program at UNAM-IIMAS and served as *Lead Backend Engineer* at [Krieger](https://krieger.mx/) in Mexico City.
 
