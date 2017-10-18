@@ -13,7 +13,7 @@ Education
 
 M.S. in Data Science
 
-Relevant coursework: Machine Learning with Probabilistic Programming.
+Relevant coursework: Algorithms for Data Science, Machine Learning with Probabilistic Programming.
 \
 \
 
