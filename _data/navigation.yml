@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "Resume"
-    url: /files/resume.pdf
+  - title: Resume
+    url: /resume
   - title: Projects
     url: /projects
