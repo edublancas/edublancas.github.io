@@ -47,15 +47,16 @@ Professional Experience
 * Oversaw backend development across projects to ensure code quality, performance and reliability
 * Developed internal software tools that are used in several ongoing projects (input validation, software versioning, deployment, user permissions). These tools have reduced development time and increased team's productivity
 * REST Web Services development using Python and Google Cloud
-  \
 
 **University of Chicago (Center for Data Science and Public Policy)** \hfill Chicago, IL
 
 *Data Science Fellow (Advisor: Rayid Ghani)* \hfill May 2015 - Jun 2016
 
-
 * Developed a Machine Learning model using spatiotemporal data for the City of Cincinnati to identify properties at risk of building code violations. Engineering a fully automated and reproducible pipeline to ingest new datasets and update the model. Worked with more than 50GB of data.
-* Designed a predictive model for Infonavit (largest mortgage provider in Mexico) to predict home abandonment. Worked with more than 100GB of data
+* Designed a predictive model for Infonavit (largest mortgage  provider in Mexico) to predict home abandonment. Worked with more than 100GB of data
+
+{% block experience_end %}
+{% endblock %}
 
 Publications
 ------------
@@ -70,4 +71,9 @@ Skills
 \
 \
 
+{% block bottom %}
+{% endblock %}
+
+{% if referral %}
 **Previous experience, awards, press and other projects available at [blancas.io](https://blancas.io).**
+{% endif %}

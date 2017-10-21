@@ -1,5 +1,6 @@
-Previous experience
--------------------
+{% extends "resume.md" %}
+
+{% block experience_end %}
 
 **Fritime** \hfill Mexico City, MX
 
@@ -12,11 +13,14 @@ Previous experience
 \
 
 **Independent Mobile App Developer** \hfill Mexico City, MX
+
 \hfill Jun 2011 - Jan 2014
 
 * Developed several 'civic apps' for iOS to provide easy access to legal regulations (e.g. traffic law) to prevent corruption
 
+{% endblock %}
 
+{% block bottom %}
 Awards
 ------
 
@@ -63,3 +67,5 @@ June 2016-Present
 
 * Volunteered for two weeks to design the [Practical Machine Learning with Python](http://scholar.stanford.edu/ml.html) course
 * Designed sections of the syllabus and provided code examples using scikit-learn and pandas
+
+{% endblock %}
