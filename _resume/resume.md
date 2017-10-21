@@ -3,7 +3,7 @@ Eduardo Blancas Reyes
 =====================
 
 ------------------------------------------------------------------------------
-    [e.blancas@columbia.edu](mailto:e.blancas@columbia.edu) / [edublancas.github.io](https://edublancas.github.io)
+    [e.blancas@columbia.edu](mailto:e.blancas@columbia.edu) / [https://blancas.io](https://blancas.io)
 ------------------------------------------------------------------------------
 
 Education
