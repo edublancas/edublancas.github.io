@@ -1,7 +1,6 @@
 Previous experience
 -------------------
 
-
 **Fritime** \hfill Mexico City, MX
 
 *CTO and co-founder* \hfill Jan 2014 - May 2015
@@ -9,8 +8,8 @@ Previous experience
 * Led a technical 3-person team
 * Engineered the iOS app prototype for our seed investment round
 * Programmed web services for our iOS app
-  \
-  \
+\
+\
 
 **Independent Mobile App Developer** \hfill Mexico City, MX
 \hfill Jun 2011 - Jan 2014
