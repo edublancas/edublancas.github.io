@@ -1,5 +1,6 @@
 ---
-title: Projects
+layout: page
+author_profile: true
 ---
 
 ## Blight Prevention: Building Strong and Healthy Neighborhoods in Cincinnati

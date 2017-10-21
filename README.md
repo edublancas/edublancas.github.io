@@ -1,6 +1,6 @@
-# Personal website
+# Personal website and resume builder
 
-Source for my [personal website](http://edublancas.github.io/).
+Run website locally:
 
 ```
 bundle exec jekyll serve --incremental

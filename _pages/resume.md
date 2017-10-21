@@ -1,5 +1,6 @@
 ---
-title: Resume
+layout: page
+author_profile: true
 ---
 
 Resume available [here](/files/resume.pdf).
