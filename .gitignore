@@ -1,7 +1,13 @@
 **/.DS_Store
-resume/resume.docx
-resume/resume.html
-resume/resume.log
-resume/resume.rtf
-resume/resume.tex
-resume/resume.tuc
+_resume/resume.docx
+_resume/resume.html
+_resume/resume.log
+_resume/resume.rtf
+_resume/resume.tex
+_resume/resume.tuc
+
+
+# jekyll
+_site/
+.sass-cache/
+.jekyll-metadata

@@ -1,6 +1,0 @@
----
-permanlink: /
----
-
-
-Stuff.
