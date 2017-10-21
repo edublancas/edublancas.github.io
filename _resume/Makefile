@@ -1,4 +1,4 @@
-all: templates resume cv clean
+all: templates resume cv move clean
 
 templates:
 	python build.py
@@ -14,6 +14,9 @@ cv: templates
 	--from markdown --to context \
 	-o cv.tex tmp_cv.md; \
 	context cv.tex
+
+move: resume cv
+	mv resume.pdf ../files/resume.pdf; mv cv.pdf ../files/cv.pdf
 
 clean:
 	rm -f tmp_resume.md
