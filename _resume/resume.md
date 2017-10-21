@@ -48,7 +48,7 @@ Professional Experience
 * Oversaw backend development across projects to ensure code quality, performance and reliability
 * Developed internal software tools that are used in several ongoing projects (input validation, software versioning, deployment, user permissions). These tools have reduced development time and increased team's productivity
 * REST Web Services development using Python and Google Cloud
-\
+  \
 
 **University of Chicago (Center for Data Science and Public Policy)** \hfill Chicago, IL
 
@@ -68,3 +68,7 @@ Skills
 ------
 
 **Programming languages**: Python, R, Objective-C, SQL. **Tools and technologies**: scikit-learn, numpy, flask, Google App Engine, Google Cloud Datastore, Google Cloud Storage, PostgreSQL, PostGIS, Docker, MongoDB, Amazon EC2, Amazon S3, Amazon Beanstalk
+\
+\
+
+**Previous experience, awards and other projects available at [blancas.io](https://blancas.io).**
