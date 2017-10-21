@@ -9,9 +9,9 @@ minimal_mistakes_skin    : "dirt" # "air", "contrast", "dark", "dirt", "mint", "
 
 # Site Settings
 locale                   : "en"
-title                    : "Eduardo Blancas"
+title                    : "Eduardo Blancas Reyes"
 title_separator          : "|"
-name                     : "Eduardo Blancas"
+name                     : "Eduardo Blancas Reyes"
 description              : "Personal website"
 url                      : "https://blancas.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"

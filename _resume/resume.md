@@ -71,4 +71,4 @@ Skills
 \
 \
 
-**Previous experience, awards and other projects available at [blancas.io](https://blancas.io).**
+**Previous experience, awards, press and other projects available at [blancas.io](https://blancas.io).**
