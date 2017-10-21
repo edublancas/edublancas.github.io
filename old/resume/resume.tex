@@ -1,0 +1,207 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% Copyright 2015 Eduardo Blancas <http://github.com/edublancas>
+%
+% Colors based on this paletter:
+% http://www.colourlovers.com/palette/61082/Your_Best_Behaviour
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+% Palettes
+% https://designschool.canva.com/blog/website-color-schemes/
+% http://www.onextrapixel.com/2013/10/25/40-stunning-website-designs-with-great-color-schemes/
+% http://www.awwwards.com/trendy-web-color-palettes-and-material-design-color-schemes-tools.html
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[namecolor][h=191919]
+\definecolor[sectioncolor][h=333333]
+\definecolor[linkcolor][h=4C4C4C]
+%\definecolor[rulecolor][h=3B3738]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=linkcolor]
+
+\setuppapersize [letter][letter]
+\setuplayout    [width=middle, height=middle,
+                 backspace=12mm, cutspace=0mm,
+                 topspace=12mm, bottomspace=12mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+% guide on styles http://wiki.contextgarden.net/Style_Alternatives#Font_Size
+% \tfd, \tfb
+
+% FONT SIZE AND STYLE
+\setupbodyfont[9pt, helvetica]
+
+% SPACING
+% http://wiki.contextgarden.net/Command/setupwhitespace
+\setupwhitespace[none]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+% fontsize \tf{a,b,c}
+% http://tex.stackexchange.com/questions/294932/alternative-to-large-large-huge-small-etc-in-context
+
+\setuphead[chapter]      [style=\tfd]
+
+% NAME
+\setuphead[section]      [style=\tfc\bf, color=namecolor, align=middle]
+
+% SECTIONS
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=middle,
+                          ]%before={\leavevmode\blackrule\hspace}]
+
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\section[eduardo-blancas-reyes]{Eduardo Blancas Reyes}
+
+\placetable[none]{}
+\starttable[|r|]
+\HL
+\NC \useURL[url1][mailto:e.blancas@columbia.edu][][e.blancas@columbia.edu]\from[url1]
+/
+\useURL[url2][https://edublancas.github.io][][edublancas.github.io]\from[url2]
+\NC\AR
+\HL
+\stoptable
+
+\subsection[education]{Education}
+
+{\bf Columbia University} \hfill  Aug 2017 - Dec 2018 (Expected)
+
+M.S. in Data Science
+
+Relevant coursework: Algorithms for Data Science, Machine Learning with
+Probabilistic Programming.\crlf
+\crlf
+{\bf Universidad Nacional Autónoma de México (UNAM)} \hfill Aug 2016 -
+Jun 2017
+
+Graduate Certificate in Applied Statistics
+
+Relevant coursework: Statistical Inference, Sampling Techniques,
+Multivariate Analysis, Experimental Design, Categorical Data Analysis,
+Regression Models and Bayesian Inference.\crlf
+\crlf
+{\bf Instituto Tecnológico y de Estudios Superiores de Monterrey
+(ITESM)} \hfill Jan 2011 - May 2015
+
+B.S. in Mechatronics Engineering. Graduated with honors.
+
+Coursework in analog and digital electronics, instrumentation, control
+theory, embedded systems.
+
+\subsection[professional-experience]{Professional Experience}
+
+{\bf Columbia University (Grossman Center for the Statistics of Mind)}
+\hfill New York, NY
+
+{\em Research Assistant (Advisor: Liam Paninski)} \hfill Sep 2017 -
+Present
+
+\startitemize[packed]
+\item
+  Apply novel Machine Learning tecniques to improve spike sorting
+\item
+  Develop an automated spike sorting library to analyze data from dense
+  multielectrode arrays using Python, scikit-learn and Tensorflow
+\stopitemize
+
+{\bf Krieger} \hfill Mexico City, MX
+
+{\em Lead Backend Engineer} \hfill Jun 2016 - Aug 2017
+
+\startitemize[packed]
+\item
+  Oversaw backend development across projects to ensure code quality,
+  performance and reliability
+\item
+  Developed internal software tools that are used in several ongoing
+  projects (input validation, software versioning, deployment, user
+  permissions). These tools have reduced development time and increased
+  team's productivity
+\item
+  REST Web Services development using Python and Google Cloud\crlf
+\stopitemize
+
+{\bf University of Chicago (Center for Data Science and Public Policy)}
+\hfill Chicago, IL
+
+{\em Data Science Fellow (Advisor: Rayid Ghani)} \hfill May 2015 - Jun
+2016
+
+\startitemize[packed]
+\item
+  Developed a Machine Learning model using spatiotemporal data for the
+  City of Cincinnati to identify properties at risk of building code
+  violations. Engineering a fully automated and reproducible pipeline to
+  ingest new datasets and update the model. Worked with more than 50GB
+  of data.
+\item
+  Designed a predictive model for Infonavit (largest mortgage provider
+  in Mexico) to predict home abandonment. Worked with more than 100GB of
+  data
+\stopitemize
+
+\subsection[publications]{Publications}
+
+\startitemize[packed]
+\item
+  K. Ackermann, {\bf E. Blancas Reyes}, S. He, T. Anderson Keller, P.
+  van der Boor. R. Khan, R. Ghani. Designing Policy Recommendations to
+  Reduce Home Abandonment in Mexico. In Proceedings of the 22nd ACM
+  SIGKDD International Conference on Knowledge Discovery and Data
+  Mining, KDD '16.
+\item
+  {\bf E. Blancas Reyes}, J. Helsby, K. Rasch, P. van der Boor, L.
+  Haynes, R. Ghani, E. Cunningham. Early detection of properties at risk
+  of blight using spatiotemporal data. Data for Policy 2016 at
+  University of Cambridge.
+\stopitemize
+
+\subsection[skills]{Skills}
+
+{\bf Programming languages}: Python, R, Objective-C, SQL. {\bf Tools and
+technologies}: scikit-learn, numpy, flask, Google App Engine, Google
+Cloud Datastore, Google Cloud Storage, PostgreSQL, PostGIS, Docker,
+MongoDB, Amazon EC2, Amazon S3, Amazon Beanstalk
+
+\stoptext
