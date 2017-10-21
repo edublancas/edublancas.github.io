@@ -75,5 +75,5 @@ Skills
 {% endblock %}
 
 {% if referral %}
-**Previous experience, awards, press and other projects available at [blancas.io](https://blancas.io).**
-{% endif %}
+**CV with prior experience, awards, press and other projects available at [blancas.io](https://blancas.io).**
+{% endif %} \hfill {{ now }}
