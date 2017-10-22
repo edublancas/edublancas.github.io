@@ -12,6 +12,7 @@ Eduardo Blancas Reyes
 
 Education
 ---------
+
 **Columbia University** \hfill  Aug 2017 - Dec 2018 (Expected)
 
 M.S. in Data Science

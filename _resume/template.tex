@@ -13,6 +13,13 @@
 % \titlespacing{\subsection}{10pt}{\parskip}{-\parskip}
 % \titlespacing{\subsubsection}{0pt}{\parskip}{-\parskip}
 
+% section and subsection font settings
+% https://tex.stackexchange.com/a/390750
+% do not use sectsty package as it clashes with titlesec package
+\titleformat*{\section}{\fontsize{25}{30}\bfseries\centering}
+\titleformat{\subsection}
+  {\fontsize{16}{20}\bfseries}{\thesection}{1em}{}[{\titlerule[1.5pt]}]
+
 % https://es.sharelatex.com/learn/Paragraph_formatting#!#Line_spacing
 \linespread{1.0}
 
@@ -20,10 +27,6 @@
 % https://tex.stackexchange.com/a/199204
 \usepackage{enumitem}
 % \setlist{nosep,after=\vspace{\baselineskip}}
-
-% center sections
-\usepackage{sectsty}
-\allsectionsfont{\centering}
 
 % no indentation
 \setlength{\parindent}{0pt}
