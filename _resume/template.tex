@@ -1,0 +1,79 @@
+\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$paper,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
+
+% margins
+% https://en.wikibooks.org/wiki/LaTeX/Page_Layout#Margins
+\usepackage[top=0.5in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
+
+% section and subsection spacing
+% http://www.ctex.org/documents/packages/layout/titlesec.pdf
+% https://tex.stackexchange.com/questions/53338/reducing-spacing-after-headings
+\usepackage[compact]{titlesec}
+% \titlespacing{command}{left spacing}{before spacing}{after spacing}[right]
+% \titlespacing{\section}{30cm}{2cm}{2cm}
+% \titlespacing{\subsection}{10pt}{\parskip}{-\parskip}
+% \titlespacing{\subsubsection}{0pt}{\parskip}{-\parskip}
+
+% https://es.sharelatex.com/learn/Paragraph_formatting#!#Line_spacing
+\linespread{1.0}
+
+% space in listings
+% https://tex.stackexchange.com/a/199204
+\usepackage{enumitem}
+% \setlist{nosep,after=\vspace{\baselineskip}}
+
+% center sections
+\usepackage{sectsty}
+\allsectionsfont{\centering}
+
+% no indentation
+\setlength{\parindent}{0pt}
+% paragraph spacing
+% \setlength{\parskip}{6pt plus 2pt minus 1pt}
+
+
+% no page numbers
+\pagenumbering{gobble}
+
+% font settings
+\usepackage{mathspec}
+\defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\setmainfont{Georgia}
+
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{colortbl}
+
+% http://latexcolor.com/
+\definecolor{cobalt}{rgb}{0.0, 0.28, 0.67}
+\definecolor{nocolor}{rgb}{1.0, 1.0, 1.0}
+% url colors
+\hypersetup{colorlinks=true, linkcolor=cobalt, urlcolor=cobalt}
+% table color
+\arrayrulecolor{nocolor}
+
+
+$if(listings)$
+\usepackage{listings}
+$endif$
+
+
+$if(tables)$
+\usepackage{longtable,booktabs}
+% longtable spacing (good for centering text)
+% https://tex.stackexchange.com/a/5686
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{0.2cm}
+$endif$
+
+
+% this is used by writer.latex
+\providecommand{\tightlist}{
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% do not add numbers to sections
+\setcounter{secnumdepth}{0}
+
+
+\begin{document}
+$body$
+\end{document}

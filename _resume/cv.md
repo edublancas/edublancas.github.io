@@ -1,7 +1,6 @@
 {% extends "resume.md" %}
 
 {% block experience_end %}
-
 **Fritime** \hfill Mexico City, MX
 
 *CTO and co-founder* \hfill Jan 2014 - May 2015
@@ -9,8 +8,6 @@
 * Led a technical 3-person team
 * Engineered the iOS app prototype for our seed investment round
 * Programmed web services for our iOS app
-\
-\
 
 **Independent Mobile App Developer** \hfill Mexico City, MX
 
@@ -23,7 +20,6 @@
 {% block bottom %}
 Awards
 ------
-
 -   2017 – National Council of Science and Technology scholarship recipient
 -   2016 – Fulbright-García Robles scholarship recipient
 -   2011-2015 – *Academic talent* scholarship for undergraduate studies at Tecnológico de Monterrey
@@ -35,8 +31,7 @@ Awards
 -   2011 – Physics and Mathematics Honors Program at Tecnológico de Monterrey
 
 Press
-----------------------------------------
-
+-----
 * [Eduardo Blancas (IMT’15) sobresale en Data Science for Social Good](http://www.itesm.mx/wps/wcm/connect/snc/portal+informativo/por+categoria/egresados/not(08sep2015)eduardoblancas). *Tecnológico de Monterrey*. September, 2015.
 * [Infonavit Project: Reducing Home Abandonment](http://dssg.uchicago.edu/2015/08/13/infonavit-abandonment.html). *DSSG blog*. August, 2015.
 * [2015 Fellow Profiles: Eduardo Blancas Reyes & Eugenia Giraudy](http://dssg.io/2015/05/12/profiles-blancas-giraudy.html). *DSSG blog*. May, 2015.

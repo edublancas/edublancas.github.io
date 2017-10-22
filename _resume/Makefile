@@ -1,29 +1,21 @@
+# https://github.com/jgm/pandoc-templates
+# https://github.com/jgm/doctemplates
 all: templates resume cv move clean
 
 templates:
 	python build.py
 
 resume: templates
-	pandoc --standalone --template style.tex \
-	--from markdown --to context \
-	-o resume.tex tmp_resume.md; \
-	context resume.tex
+	pandoc -o resume.pdf --template template.tex \
+	--latex-engine=xelatex tmp_resume.md
 
 cv: templates
-	pandoc --standalone --template style.tex \
-	--from markdown --to context \
-	-o cv.tex tmp_cv.md; \
-	context cv.tex
+	pandoc -o cv.pdf --template template.tex \
+	--latex-engine=xelatex tmp_cv.md
 
 move: resume cv
 	mv resume.pdf ../files/resume.pdf; mv cv.pdf ../files/cv.pdf
 
 clean:
 	rm -f tmp_resume.md
-	rm -f resume.tuc
-	rm -f resume.tex
-	rm -f resume.log
 	rm -f tmp_cv.md
-	rm -f cv.tuc
-	rm -f cv.tex
-	rm -f cv.log
