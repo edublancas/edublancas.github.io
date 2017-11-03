@@ -85,7 +85,7 @@ analytics:
 author:
   name             : "Eduardo Blancas"
   avatar           : /files/photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Passionate about using data-driven solutions to complex problems. Into Machine Learning and Bayesian Inference."
+  bio              : "Passionate about using data to understand complex problems. Into Machine Learning and Bayesian Inference."
   location         : "New York, NY"
   email            : fkq8@blancas.io
   uri              :
