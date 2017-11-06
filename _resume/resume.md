@@ -38,8 +38,8 @@ New York, NY
 
 *Research Assistant (Advisor: Liam Paninski)* \hfill Sep 2017 - Present
 
-* Apply novel Machine Learning tecniques to improve spike sorting
-* Develop an automated spike sorting library to analyze data from dense multielectrode arrays using Python, scikit-learn and Tensorflow
+* Mantainer of [YASS](https://github.com/paninski-lab/yass): an automated Python spike sorting library built on top of SciPy, scikit-learn and TensorFlow
+* Apply Machine Learning methods to improve automated spike sorting
 
 **Krieger** \hfill Mexico City, MX
 
