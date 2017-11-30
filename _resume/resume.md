@@ -39,7 +39,7 @@ New York, NY
 *Research Assistant (Advisor: Liam Paninski)* \hfill Sep 2017 - Present
 
 * Maintainer of [YASS](https://github.com/paninski-lab/yass): an automated Python spike sorting library built on top of SciPy, scikit-learn and TensorFlow. Responsible for managing the project in the internal team and the external community
-* Apply Machine Learning methods to improve automated spike sorting
+* Apply Machine Learning algorithms to scale spike sorting for big datasets
 
 **Krieger** \hfill Mexico City, MX
 
@@ -53,6 +53,7 @@ New York, NY
 
 *Data Science Fellow (Advisor: Rayid Ghani)* \hfill May 2015 - Jun 2016
 
+* Held meetings with our partners for project scoping and updates, communicated data analysis results to people without technical background
 * Developed a Machine Learning model using spatiotemporal data for the City of Cincinnati to identify properties at risk of building code violations. Engineering a fully automated and reproducible pipeline to ingest new datasets and update the model. Worked with more than 50GB of data.
 * Designed a predictive model for Infonavit (largest mortgage  provider in Mexico) to predict home abandonment. Worked with more than 100GB of data
 
@@ -67,9 +68,7 @@ K. Ackermann, **E. Blancas Reyes**, S. He, T. Anderson Keller, P. van der Boor. 
 Skills
 ------
 
-**Programming languages**: Python, R, Objective-C, SQL.
-
-**Tools and technologies**: scikit-learn, numpy, flask, Google App Engine, Google Cloud Datastore, Google Cloud Storage, PostgreSQL, PostGIS, Docker, MongoDB, Amazon EC2, Amazon S3, Amazon Beanstalk \newline
+**Programming languages**: Python, R, Objective-C, SQL. **Tools and technologies**: scikit-learn, numpy, flask, Google App Engine, Google Cloud Datastore, Google Cloud Storage, PostgreSQL, PostGIS, Docker, MongoDB, Amazon EC2, Amazon S3, Amazon Beanstalk \newline
 
 {% block bottom %}{% endblock %}
 
