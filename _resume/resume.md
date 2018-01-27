@@ -17,7 +17,7 @@ Education
 
 M.S. in Data Science
 
-Relevant coursework: Algorithms for Data Science, Computer Systems for Data Science, Exploratory Data Analysis & Visualization, Machine Learning, Probabilistic Programming, Deep Learning & Neuroscience\newline
+Relevant coursework: Algorithms for Data Science, Computer Systems for Data Science, Exploratory Data Analysis & Visualization, Machine Learning, Probabilistic Programming, Robustness and Security in Machine Learning\newline
 
 **Universidad Nacional Autónoma de México (UNAM)** \hfill Aug 2016 - Jun 2017
 
