@@ -15,7 +15,7 @@ Education
 
 **Columbia University** \hfill  Aug 2017 - Dec 2018 (Expected)
 
-M.S. in Data Science
+M.S. in Data Science (Sponsored by Fulbright and CONACYT)
 
 Relevant coursework: Algorithms for Data Science, Computer Systems for Data Science, Exploratory Data Analysis & Visualization, Machine Learning, Probabilistic Programming, Robustness and Security in Machine Learning\newline
 
@@ -55,7 +55,7 @@ New York, NY
 *Data Science Fellow (Advisor: Rayid Ghani)* \hfill May 2015 - Jun 2016
 
 * Held meetings with project partners for scoping and updates, communicated data analysis results to non-technical audience
-* Developed a Machine Learning model using spatiotemporal data for the City of Cincinnati to identify properties at risk of building code violations. Engineering an automated and reproducible pipeline to ingest new data and update the model. Worked with more than 50GB of data.
+* Developed a Machine Learning model using spatiotemporal data for the City of Cincinnati to identify properties at risk of building code violations. Worked with more than 50GB of data.
 * Designed a predictive model for Infonavit (largest mortgage  provider in Mexico) to predict home abandonment. Worked with more than 100GB of data
 
 {% block experience_end %}{% endblock %}

@@ -7,11 +7,11 @@ templates:
 
 resume: templates
 	pandoc -o resume.pdf --template template.tex \
-	--latex-engine=xelatex tmp_resume.md
+	--pdf-engine=xelatex tmp_resume.md
 
 cv: templates
 	pandoc -o cv.pdf --template template.tex \
-	--latex-engine=xelatex tmp_cv.md
+	--pdf-engine=xelatex tmp_cv.md
 
 move: resume cv
 	mv resume.pdf ../files/resume.pdf; mv cv.pdf ../files/cv.pdf
