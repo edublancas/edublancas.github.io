@@ -15,7 +15,7 @@ Education
 
 **Columbia University** \hfill  Aug 2017 - Dec 2018 (Expected)
 
-M.S. in Data Science (Sponsored by Fulbright and CONACYT)
+M.S. in Data Science
 
 Relevant coursework: Algorithms for Data Science, Computer Systems for Data Science, Exploratory Data Analysis & Visualization, Machine Learning, Probabilistic Programming, Robustness and Security in Machine Learning\newline
 
