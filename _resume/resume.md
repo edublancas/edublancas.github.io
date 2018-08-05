@@ -38,9 +38,9 @@ New York, NY
 
 *Research Assistant (Advisor: Liam Paninski)* \hfill Sep 2017 - Present
 
-* Maintainer of [YASS](https://github.com/paninski-lab/yass): an open source spike sorting library built on top of NumPy, SciPy, scikit-learn and TensorFlow. Responsible for managing the project with the internal team and external community
-* Develop high-performance algorithms for processing Larger-than-Memory datasets
-* Apply Machine Learning and Statistical methods to process neural recordings
+* Maintainer of [YASS](https://github.com/paninski-lab/yass): an open source spike sorting library. Responsible for managing the project with the internal team and external community
+* Develop high-performance algorithms for processing Larger-than-Memory datasets (NumPy, SciPy, scikit-learn)
+* Apply Deep Learning (CNNs and RNNs) for neural activity detection and classification (TensorFlow, Keras)
 
 **Krieger** \hfill Mexico City, MX
 
