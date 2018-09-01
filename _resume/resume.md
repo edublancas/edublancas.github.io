@@ -6,8 +6,12 @@ papersize: letter
 Eduardo Blancas Reyes
 =====================
 
+\begin{center}
+Software engineer with strong Machine Learning background and experience contributing to open source projects.
+\end{center}
+
 --------
-[e.blancas@columbia.edu](mailto:e.blancas@columbia.edu) \hspace{0.5cm} [https://blancas.io](https://blancas.io)
+[e.blancas@columbia.edu](mailto:e.blancas@columbia.edu) \hspace{0.5cm} [https://blancas.io](https://blancas.io) \hspace{0.5cm} [https://github.com/edublancas](https://github.com/edublancas)
 --------
 
 Education
@@ -17,7 +21,7 @@ Education
 
 M.S. in Data Science
 
-Relevant coursework: Algorithms for Data Science, Computer Systems for Data Science, Exploratory Data Analysis & Visualization, Machine Learning, Probabilistic Programming, Robustness and Security in Machine Learning\newline
+Relevant coursework: Algorithms for Data Science, Computer Systems for Data Science, Exploratory Data Analysis & Visualization, Machine Learning, Probabilistic Programming, Robustness and Security in Machine Learning, Applied Deep Learning\newline
 
 **Universidad Nacional Autónoma de México (UNAM)** \hfill Aug 2016 - Jun 2017
 
@@ -29,18 +33,16 @@ Relevant coursework: Statistical Inference, Sampling Techniques, Multivariate An
 
 B.S. in Mechatronics Engineering. Graduated with honors.
 
-Coursework in analog and digital electronics, instrumentation, control theory, embedded systems.
 
 Experience
 ----------
-**Columbia University (Grossman Center for the Statistics of Mind)** \hfill 
-New York, NY
+**Columbia University (Deparment of Statistics)** \hfill New York, NY
 
 *Research Assistant (Advisor: Liam Paninski)* \hfill Sep 2017 - Present
 
 * Maintainer of [YASS](https://github.com/paninski-lab/yass): an open source spike sorting library. Responsible for managing the project with the internal team and external community
 * Develop high-performance algorithms for processing Larger-than-Memory datasets (NumPy, SciPy, scikit-learn)
-* Apply Deep Learning (CNNs and RNNs) for neural activity detection and classification (TensorFlow, Keras)
+* Use Deep Learning (CNNs) for neural activity detection and classification (TensorFlow, Keras)
 
 **Krieger** \hfill Mexico City, MX
 
