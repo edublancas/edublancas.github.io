@@ -38,7 +38,7 @@ Experience
 ----------
 **Columbia University (Deparment of Statistics)** \hfill New York, NY
 
-*Research Assistant (Advisor: Liam Paninski)* \hfill Sep 2017 - Present
+*Research Assistant (Advisor: Liam Paninski)* \hfill Sep 2017 - Dec 2018
 
 * Maintainer of [YASS](https://github.com/paninski-lab/yass): an open source spike sorting library. Responsible for managing the project with the internal team and external community
 * Develop high-performance algorithms for processing Larger-than-Memory datasets (NumPy, SciPy, scikit-learn)
