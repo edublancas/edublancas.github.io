@@ -20,13 +20,11 @@ Education
 **Columbia University** \hfill  Aug 2017 - Dec 2018 (Expected)
 
 M.S. in Data Science
-
-Relevant coursework: Algorithms for Data Science, Computer Systems for Data Science, Exploratory Data Analysis & Visualization, Machine Learning, Probabilistic Programming, Robustness and Security in Machine Learning, Applied Deep Learning\newline
+Relevant coursework: Computer Systems, Machine Learning, Probabilistic Programming, Robustness and Security in ML, Applied Deep Learning\newline
 
 **Universidad Nacional Autónoma de México (UNAM)** \hfill Aug 2016 - Jun 2017
 
-Graduate Certificate in Applied Statistics 
-
+Graduate Certificate in Applied Statistics
 Relevant coursework: Statistical Inference, Sampling Techniques, Multivariate Analysis, Experimental Design, Categorical Data Analysis, Regression Models and Bayesian Inference.\newline
 
 **Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)** \hfill Jan 2011 - May 2015
@@ -41,6 +39,7 @@ Experience
 *Research Assistant (Advisor: Liam Paninski)* \hfill Sep 2017 - Dec 2018
 
 * Maintainer of [YASS](https://github.com/paninski-lab/yass): an open source spike sorting library. Responsible for managing the project with the internal team and external community
+* Worked with the research team to turn YASS old codebase into a tested, organized and documented Python library
 * Develop high-performance algorithms for processing Larger-than-Memory datasets (NumPy, SciPy, scikit-learn)
 * Use Deep Learning (CNNs) for neural activity detection and classification (TensorFlow, Keras)
 
@@ -56,9 +55,9 @@ Experience
 
 *Data Science Fellow (Advisor: Rayid Ghani)* \hfill May 2015 - Jun 2016
 
-* Held meetings with project partners for scoping and updates, communicated data analysis results to non-technical audience
 * Developed a Machine Learning model using spatiotemporal data for the City of Cincinnati to identify properties at risk of building code violations. Worked with more than 50GB of data.
 * Designed a predictive model for Infonavit (largest mortgage  provider in Mexico) to predict home abandonment. Worked with more than 100GB of data
+* Communicated data analysis results to non-technical audience
 
 {% block experience_end %}{% endblock %}
 
