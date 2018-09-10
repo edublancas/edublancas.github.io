@@ -20,12 +20,14 @@ Education
 **Columbia University** \hfill  Aug 2017 - Dec 2018 (Expected)
 
 M.S. in Data Science
+
 Relevant coursework: Computer Systems, Machine Learning, Probabilistic Programming, Robustness and Security in ML, Applied Deep Learning\newline
 
 **Universidad Nacional Autónoma de México (UNAM)** \hfill Aug 2016 - Jun 2017
 
 Graduate Certificate in Applied Statistics
-Relevant coursework: Statistical Inference, Sampling Techniques, Multivariate Analysis, Experimental Design, Categorical Data Analysis, Regression Models and Bayesian Inference.\newline
+
+Relevant coursework: Statistical Inference, Sampling, Multivariate Analysis, Regression Models and Bayesian Inference.\newline
 
 **Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)** \hfill Jan 2011 - May 2015
 
