@@ -21,13 +21,13 @@ Education
 
 M.S. in Data Science
 
-Relevant coursework: Computer Systems, Machine Learning, Probabilistic Programming, Robustness and Security in ML, Applied Deep Learning\newline
+Coursework: Computer Systems, Machine Learning, Probabilistic Programming, Robustness and Security in ML, Applied Deep Learning.\newline
 
 **Universidad Nacional Autónoma de México (UNAM)** \hfill Aug 2016 - Jun 2017
 
 Graduate Certificate in Applied Statistics
 
-Relevant coursework: Statistical Inference, Sampling, Multivariate Analysis, Regression Models and Bayesian Inference.\newline
+Coursework: Statistical Inference, Sampling, Multivariate Analysis, Regression Models and Bayesian Inference.\newline
 
 **Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)** \hfill Jan 2011 - May 2015
 
@@ -40,10 +40,10 @@ Experience
 
 *Research Assistant (Advisor: Liam Paninski)* \hfill Sep 2017 - Dec 2018
 
-* Maintainer of [YASS](https://github.com/paninski-lab/yass): an open source spike sorting library. Responsible for managing the project with the internal team and external community
+* Maintainer of [YASS](https://github.com/paninski-lab/yass): an open source library for Computational Neuroscience
 * Worked with the research team to turn YASS old codebase into a tested, organized and documented Python library
 * Develop high-performance algorithms for processing Larger-than-Memory datasets (NumPy, SciPy, scikit-learn)
-* Use Deep Learning (CNNs) for neural activity detection and classification (TensorFlow, Keras)
+* Use Deep Learning for neural activity detection and classification (TensorFlow, Keras), models trained using Google Compute Engine
 
 **Krieger** \hfill Mexico City, MX
 
@@ -51,7 +51,7 @@ Experience
 
 * Oversaw backend development across projects to ensure code quality, performance and reliability
 * Developed internal software tools that are used in several ongoing projects (input validation, software versioning, deployment, user permissions). These tools have reduced development time and increased team's productivity
-* REST Web Services development using Python and Google Cloud
+* Developed web services using Python (Flask) and deployed them using Google App Engine, Cloud Datastore and Cloud Storage
 
 **University of Chicago (Center for Data Science and Public Policy)** \hfill Chicago, IL
 
@@ -59,6 +59,7 @@ Experience
 
 * Developed a Machine Learning model using spatiotemporal data for the City of Cincinnati to identify properties at risk of building code violations. Worked with more than 50GB of data.
 * Designed a predictive model for Infonavit (largest mortgage  provider in Mexico) to predict home abandonment. Worked with more than 100GB of data
+* Both pipelines were developed using Amazon EC2 and RDS
 * Communicated data analysis results to non-technical audience
 
 {% block experience_end %}{% endblock %}
@@ -72,12 +73,12 @@ K. Ackermann, **E. Blancas Reyes**, S. He, T. Anderson Keller, P. van der Boor. 
 Skills
 ------
 
-**Programming languages**: Python, R, Objective-C, SQL. **Tools and technologies**: scikit-learn, numpy, flask, Google App Engine, Google Cloud Datastore, Google Cloud Storage, PostgreSQL, PostGIS, Docker, MongoDB, Amazon EC2, Amazon S3, Amazon Beanstalk \newline
+**Programming languages**: Python, R, Objective-C, SQL. **Tools and technologies**: scikit-learn, numpy, flask, Google App Engine, Google Cloud Datastore, Google Cloud Storage, Google Compute Engine, PostgreSQL, PostGIS, Docker, MongoDB, Amazon EC2, Amazon S3, Amazon Beanstalk \newline
 
 {% block bottom %}{% endblock %}
 
 {% if referral %}
-**CV with prior experience, awards, press and other projects available at** [https://blancas.io](https://blancas.io).\newline
+**CV with prior experience, awards, press and other projects available at** [https://blancas.io/files/cv.pdf](https://blancas.io/files/cv.pdf).\newline
 {% endif %}
 \vspace*{\fill}
 \hfill {{ now }}
