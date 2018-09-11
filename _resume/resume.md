@@ -6,26 +6,25 @@ papersize: letter
 Eduardo Blancas Reyes
 =====================
 
-\begin{center}
+-------------------------------------------------------------
 Software engineer with strong Machine Learning background and experience contributing to open source projects.
-\end{center}
 
---------
-[e.blancas@columbia.edu](mailto:e.blancas@columbia.edu) \hspace{0.5cm} [https://blancas.io](https://blancas.io) \hspace{0.5cm} [https://github.com/edublancas](https://github.com/edublancas)
---------
+
+[e.blancas@columbia.edu](mailto:e.blancas@columbia.edu) \hspace{1.35cm} [https://blancas.io](https://blancas.io) \hspace{1.35cm} [https://github.com/edublancas](https://github.com/edublancas)
+--------------------------------------------------------------
 
 Education
 ---------
 
 **Columbia University** \hfill  Aug 2017 - Dec 2018 (Expected)
 
-M.S. in Data Science
+M.S. in Data Science. Fulbright Scholar.
 
 Coursework: Computer Systems, Machine Learning, Probabilistic Programming, Robustness and Security in ML, Applied Deep Learning.\newline
 
 **Universidad Nacional Autónoma de México (UNAM)** \hfill Aug 2016 - Jun 2017
 
-Graduate Certificate in Applied Statistics
+Graduate Certificate in Applied Statistics (one-year program of graduate coursework)
 
 Coursework: Statistical Inference, Sampling, Multivariate Analysis, Regression Models and Bayesian Inference.\newline
 
@@ -41,9 +40,10 @@ Experience
 *Research Assistant (Advisor: Liam Paninski)* \hfill Sep 2017 - Dec 2018
 
 * Maintainer of [YASS](https://github.com/paninski-lab/yass): an open source library for Computational Neuroscience
-* Worked with the research team to turn YASS old codebase into a tested, organized and documented Python library
 * Develop high-performance algorithms for processing Larger-than-Memory datasets (NumPy, SciPy, scikit-learn)
-* Use Deep Learning for neural activity detection and classification (TensorFlow, Keras), models trained using Google Compute Engine
+* Improve existing code: optimization using benchmarking and profiling tools, parallelization using the multiprocessing library and NumPy parallel operations
+* Use Deep Learning for neural activity detection and classification (TensorFlow, Keras), GPU training using Google Compute Engine
+* Worked with the research team to turn YASS old codebase into a tested, organized and documented Python library
 
 **Krieger** \hfill Mexico City, MX
 
@@ -73,7 +73,7 @@ K. Ackermann, **E. Blancas Reyes**, S. He, T. Anderson Keller, P. van der Boor. 
 Skills
 ------
 
-**Programming languages**: Python, R, Objective-C, SQL. **Tools and technologies**: scikit-learn, numpy, flask, Google App Engine, Google Cloud Datastore, Google Cloud Storage, Google Compute Engine, PostgreSQL, PostGIS, Docker, MongoDB, Amazon EC2, Amazon S3, Amazon Beanstalk \newline
+**Programming languages**: Python, R, Objective-C, SQL. **Tools and technologies**: scikit-learn, NumPy, flask, Google Cloud (App Engine, Datastore, Storage and Compute Engine), PostgreSQL, PostGIS, Docker, MongoDB, AWS (EC2, S3, RDS and Beanstalk) \newline
 
 {% block bottom %}{% endblock %}
 
