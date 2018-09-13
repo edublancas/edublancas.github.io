@@ -58,8 +58,9 @@ Experience
 
 *Data Science Fellow (Advisor: Rayid Ghani)* \hfill May 2015 - Jun 2016
 
-* Developed a Machine Learning model using spatiotemporal data for the City of Cincinnati to identify properties at risk of building code violations. Worked with more than 50GB of data. Data pipeline developed using Amazon EC2, S3 and RDS.
-* Designed a predictive model for Infonavit (largest mortgage  provider in Mexico) to predict home abandonment. Worked with more than 100GB of data. Data pipeline developed using Amazon EC2, S3 and RDS.
+* Developed a Machine Learning model for the City of Cincinnati to identify properties at risk of building code violations. 50GB+ of data
+* Designed a predictive model for Infonavit (largest mortgage  provider in Mexico) to predict home abandonment. 100GB+ of data
+* Both pipelines (ETL, feature extracion, model training and model selection) developed using Amazon EC2, S3 and RDS.
 * Communicated data analysis results to non-technical audience
 
 {% block experience_end %}{% endblock %}
