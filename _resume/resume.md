@@ -6,12 +6,9 @@ papersize: letter
 Eduardo Blancas Reyes
 =====================
 
--------------------------------------------------------------
-Software engineer with strong Machine Learning background and experience contributing to open source projects.
-
-
-[e.blancas@columbia.edu](mailto:e.blancas@columbia.edu) \hspace{1.35cm} [https://blancas.io](https://blancas.io) \hspace{1.35cm} [https://github.com/edublancas](https://github.com/edublancas)
---------------------------------------------------------------
+--------
+[e.blancas@columbia.edu](mailto:e.blancas@columbia.edu) \hspace{0.5cm} [https://blancas.io](https://blancas.io) \hspace{0.5cm} [https://github.com/edublancas](https://github.com/edublancas)
+--------
 
 Education
 ---------
