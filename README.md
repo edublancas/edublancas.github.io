@@ -3,12 +3,15 @@
 Run website locally:
 
 ```
+# i'm using my local ruby installation (no rvm)
+
 bundle exec jekyll serve --incremental
 ```
 
 
 ## Resources
 
+* [Jekyll cheatsheet](https://devhints.io/jekyll)
 * [Jekyll](https://jekyllrb.com/)
 * [Minimal Mistakes template](https://mmistakes.github.io/minimal-mistakes/)
 * [Sample website](https://github.com/mmistakes/made-mistakes-jekyll)
