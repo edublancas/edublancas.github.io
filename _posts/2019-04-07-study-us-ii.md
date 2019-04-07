@@ -1,4 +1,8 @@
-# Aplicando a una maestría en EE.UU. (II): Aplicando a las universidades
+---
+layout: post
+title: "Aplicando a una maestría en EE.UU. (II): Seleccionando programas"
+comments: true
+---
 
 En esta segunda parte escribiré sobre qué parámetros tomar en cuenta para elegir los programas a los que aplicarás. Considera unos 10-15 programas en tu búsqueda, para finalmente aplicar a unos 6. Lo más importante es la calidad del programa pero considera que entre más prestigio tenga, más competitiva será la admisión, el resto de los aspectos que mencionaré no están en ningún orden particular, dependerá de ti cuál consideres más importante.
 
