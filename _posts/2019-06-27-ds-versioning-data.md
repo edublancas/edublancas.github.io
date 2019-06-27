@@ -10,7 +10,7 @@ Reproducibility is defined as the *"ability of a researcher to duplicate the res
 
 We can test for reproducibility by answering the following question: given the *same raw data and code*, do we get the same results? Using intermediate results and claim reproducibility is cheating, since we are overlooking all previous computations that originated such interim results.
 
-*Reproducibility can only be achieved by construction*, it is not a feature you add to your pipeline. The bad news is that you cannot do `pip install reproducibility`; the only way to achieve is through better software engineering practices. The good news is that verifying reproducibility is trivial.
+*Reproducibility can only be achieved by construction*, it is not a feature you add to your pipeline. The bad news is that you cannot do `pip install reproducibility`; the only way to achieve it is through better software engineering practices. The good news is that verifying reproducibility is trivial.
 
 **Verifying reproducibility**
 
