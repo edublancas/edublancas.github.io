@@ -85,8 +85,8 @@ analytics:
 author:
   name             : "Eduardo Blancas"
   avatar           : /files/photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Passionate about using data to understand complex problems. Into Machine Learning and Bayesian Inference."
-  location         : "New York, NY"
+  bio              : "Data Scientist @ Fidelity"
+  location         : "Boston, MA"
   email            : fkq8@blancas.io
   uri              :
   bitbucket        :

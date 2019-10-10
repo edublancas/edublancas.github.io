@@ -3,9 +3,9 @@ layout: single
 author_profile: true
 ---
 
-Hi, this is Eduardo. I'm pursuing a **M.S in Data Science at Columbia University**, sponsored by Fulbright and CONACYT. Currently working as Research Assistant in [Professor Liam Paninki's Lab](http://grossmancenter.columbia.edu/) in the Neuroscience and Statistics department. I'm interested in **Machine Learning, Bayesian Inference and Computational Neuroscience.**
+Hi, this is Eduardo. I am currently a Data Scientist at Fidelity Investments. Before that, I obtained a **M.S in Data Science at Columbia University**, sponsored by Fulbright and CONACYT where I worked as Research Assistant in [Professor Liam Paninki's Lab](http://grossmancenter.columbia.edu/) in the Neuroscience and Statistics department.
 
-Before Moving to NY, I did the **Applied Statistics** program at **UNAM-IIMAS** and served as *Lead Backend Engineer* at [Krieger](https://krieger.mx/) in Mexico City.
+Before moving to NYC, I did the **Applied Statistics** program at **UNAM-IIMAS** and worked as *Lead Backend Engineer* at [Krieger](https://krieger.mx/) in Mexico City.
 
 I also spent a wonderful time in Chicago. I was a **Data Science Fellow** in the [Center for Data Science and Public Policy](http://dsapp.org/) at **University of Chicago** where I worked on Data Science projects applied to [urban revitalization](http://dssg.uchicago.edu/2015/08/13/infonavit-abandonment.html).
 
