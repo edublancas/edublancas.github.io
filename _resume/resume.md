@@ -13,7 +13,7 @@ Eduardo Blancas Reyes
 Education
 ---------
 
-**Columbia University** \hfill  Aug 2017 - Dec 2018 (Expected)
+**Columbia University** \hfill  Aug 2017 - Dec 2018
 
 M.S. in Data Science. Fulbright Scholar.
 
@@ -32,15 +32,21 @@ B.S. in Mechatronics Engineering. Graduated with honors.
 
 Experience
 ----------
+
+**Fidelity Investments** \hfill Boston, MA
+
+*Data Scientist* \hfill Feb 2019 - Present
+
+* Developing Machine Learning models for asset management in the AI Center of Excellence
+
 **Columbia University (Deparment of Statistics)** \hfill New York, NY
 
 *Research Assistant (Advisor: Liam Paninski)* \hfill Sep 2017 - Dec 2018
 
-* Maintainer of [YASS](https://github.com/paninski-lab/yass): an open source library for Computational Neuroscience
-* Develop high-performance algorithms for processing Larger-than-Memory datasets (NumPy, SciPy, scikit-learn)
-* Improve existing code: optimization using benchmarking and profiling tools, parallelization using the multiprocessing library and NumPy parallel operations
-* Use Deep Learning for neural activity detection and classification (TensorFlow, Keras), GPU training using Google Compute Engine
-* Worked with the research team to turn YASS old codebase into a tested, organized and documented Python library
+* Maintainer of  [YASS](https://github.com/paninski-lab/yass): an open source library for Computational Neuroscience. Worked with the research team to turn YASS old codebase into a tested, organized and documented Python library
+* Developed high-performance algorithms for processing Larger-than-Memory datasets (NumPy, SciPy, scikit-learn)
+* Improved existing code: optimization using benchmarking and profiling tools
+* Used Deep Learning for neural activity detection and classification (TensorFlow, Keras), GPU training using Google Compute Engine
 
 **Krieger** \hfill Mexico City, MX
 
@@ -49,7 +55,6 @@ Experience
 * Oversaw backend development across projects to ensure code quality, performance and reliability
 * Developed internal software tools that are used in several ongoing projects (input validation, software versioning, deployment, user permissions). These tools have reduced development time and increased team's productivity
 * Developed web services using Python (Flask) and deployed them using Google App Engine, Cloud Datastore and Cloud Storage
-* Engineered a data pipeline to perform entity resolution using Apache Airflow
 
 **University of Chicago (Center for Data Science and Public Policy)** \hfill Chicago, IL
 
@@ -58,7 +63,6 @@ Experience
 * Developed a Machine Learning model for the City of Cincinnati to identify properties at risk of building code violations. 50GB+ of data
 * Designed a predictive model for Infonavit (largest mortgage  provider in Mexico) to predict home abandonment. 100GB+ of data
 * Both pipelines (ETL, feature extracion, model training and model selection) developed using Amazon EC2, S3 and RDS (PostgreSQL and PostGIS).
-* Communicated data analysis results to non-technical audience
 
 {% block experience_end %}{% endblock %}
 
