@@ -68,6 +68,8 @@ Experience
 
 Publications
 ------------
+Lee, J. [et al, including **E. Blancas Reyes**] Neural networks for sorting neurons.  Computational and Systems Neuroscience (Cosyne) 2019 \newline
+
 **E. Blancas Reyes**, J. Helsby, K. Rasch, P. van der Boor, L. Haynes, R. Ghani, E. Cunningham. Early detection of properties at risk of blight using spatiotemporal data. Data for Policy 2016 at University of Cambridge. \newline
 
 K. Ackermann, **E. Blancas Reyes**, S. He, T. Anderson Keller, P. van der Boor. R. Khan, R. Ghani. Designing Policy Recommendations to Reduce Home Abandonment in Mexico. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, KDD’16.
