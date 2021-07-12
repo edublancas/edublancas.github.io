@@ -3,7 +3,7 @@ layout: single
 author_profile: true
 ---
 
-Hi, this is Eduardo! I currently lead the development of [Ploomber](https://github.com/ploomber/ploomber), an open-source library to write maintainable, production-ready pipelines using Jupyter. Join our [community](http://community.ploomber.io) to build the next generation of data tools or read more about our ideas in the [blog](https://ploomber.io/).
+Hi, this is Eduardo! I currently lead the development of [Ploomber](https://github.com/ploomber/ploomber), an open-source library to write maintainable, production-ready pipelines using Jupyter. Join our [community](http://community.ploomber.io) to build the next generation of data tools or read more about our ideas in the [blog](https://ploomber.io/). If you're looking for MLOps consulting services, send me an [email](mailto:edu@blancas.io).
 
 I am also a Data Scientist at Fidelity Investments. Before that, I obtained an **M.S in Data Science at Columbia University**, sponsored by Fulbright and CONACYT, where I worked as Research Assistant in [Professor Liam Paninki's Lab](http://grossmancenter.columbia.edu/) in the Neuroscience and Statistics department.
 
