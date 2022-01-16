@@ -85,7 +85,7 @@ analytics:
 author:
   name             : "Eduardo Blancas"
   avatar           : /files/photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "BUilding @ Ploomber.io"
+  bio              : "Building @ Ploomber.io"
   location         : "Boston, MA"
   email            : edu@blancas.io
   uri              :
