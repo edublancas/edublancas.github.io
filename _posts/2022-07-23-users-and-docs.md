@@ -70,8 +70,8 @@ The previous snippet will provide the user-specific instructions when encounteri
 
 However, we're assuming that:
 
-1. We can import `some_package` in our project's codebase
-2. We are sure that when `SomeException` is raised, the solution is what we are displaying
+1. We can import `some_package.exceptions` in our project's codebase (which implies adding it as a dependency)
+2. We are sure that when `SomeException` is raised, the solution is what we are displaying to the user
 
 Sometimes exceptions are too general, so we need to dig deeper. In such cases, we can use the error message as a proxy:
 
