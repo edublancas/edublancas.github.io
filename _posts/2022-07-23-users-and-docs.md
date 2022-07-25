@@ -20,6 +20,8 @@ A helpful error message tells you three things:
 2. Why it failed
 3. How to fix it
 
+For example:
+
 > RuntimeError: Cannot re-initialize CUDA in forked subprocess. To use CUDA with multiprocessing, you must use the 'spawn' start method
 
 This error message contains the three elements:
