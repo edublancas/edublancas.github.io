@@ -3,11 +3,23 @@
 
 Run website locally:
 
-```
-# i'm using my local ruby installation (no rvm)
+```sh
+conda create --name ruby ruby compilers -c conda-forge -y
+conda activate ruby
+bundle install
+jekyll serve --incremental
 
+# or
 bundle exec jekyll serve --incremental
 ```
+
+If things break, try removing `Gemfile.lock`.
+
+Add new posts:
+
+1. Put the md file in `_posts`, don't forget the front matter
+2. Move images to `assets/images`
+3. Update the paths to the images
 
 
 ## Resources
