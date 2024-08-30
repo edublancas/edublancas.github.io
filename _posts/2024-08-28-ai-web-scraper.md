@@ -4,7 +4,7 @@ title: Using GPT-4o for web scraping
 comments: false
 ---
 
-tl;dr; show me the [demo!](#conclusions-and-demo)
+tl;dr; show me the [demo and source code!](#conclusions-and-demo)
 
 ![app](/assets/images/ai-web-scraper/app.png)
 
@@ -120,9 +120,9 @@ to try this approach and evaluate performance.
 
 I was surprised by the extraction quality of GPT-4o (but then sadly surprised when I looked at how much I'd have to pay OpenAI!). Nonetheless, this was a fun experiment and I definitely see potential for AI-assisted web scraping tools.
 
-I did a quick demo using Streamlit, you can check it out here:
+I did a quick demo using Streamlit, you can check it out here: [https://orange-resonance-9766.ploomberapp.io](https://orange-resonance-9766.ploomberapp.io), the source code is on [GitHub](https://github.com/edublancas/posts/tree/main/ai-web-scraping) (Spoiler: don't expect anything polished).
 
-Some stuff I'd like to try if I had more time: [https://orange-resonance-9766.ploomberapp.io](https://orange-resonance-9766.ploomberapp.io)
+Some stuff I'd like to try if I had more time:
 
 1. Capture browser events: the current demo is a one-off process: users enter the URL and an initial XPath. This isn't great UX as it'd be better to ask the user to click on the table they want to extract, and to provide some sample rows so the model can understand the structure a bit better.
 2. In complex tables, a single XPath might not be enough to extract a full column, I'd like to see if asking the LLM to return a program (e.g. Python) would work.
