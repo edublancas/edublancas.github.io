@@ -3,7 +3,7 @@ layout: single
 author_profile: true
 ---
 
-Hi, this is Eduardo! I'm currently working on [Ploomber](https://github.com/ploomber/ploomber), an open-source framework to write maintainable, production-ready pipelines from Jupyter. Check out more about the project on our [website](https://ploomber.io/).
+Hi, this is Eduardo! I'm currently working on [Ploomber](https://ploomber.io/).
 
 Until the end of 2021, I was a Data Scientist at Fidelity Investments (Boston), where I deployed the first customer-facing Machine Learning model for asset management. In 2019, I obtained an M.S in Data Science from Columbia University, supported by Fulbright. There, I worked as Research Assistant in [Professor Liam Paninki's Lab](http://grossmancenter.columbia.edu/) in the Neuroscience and Statistics department.
 
