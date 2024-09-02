@@ -77,7 +77,7 @@ After some tweaks, I came up with this prompt:
 
 > You're an expert web scraper.
 >
-> The user will provide the HTML content and the extracted values in JSON format. 
+> The user will provide the HTML content and the column name.
 > Your job is to come up with an XPath that will return all elements of that column.
 >
 > The XPath should be a string that can be evaluated by Selenium's
