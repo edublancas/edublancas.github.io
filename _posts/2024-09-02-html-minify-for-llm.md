@@ -223,8 +223,8 @@ as that'd involve a higher OpenAI bill (check out my [startup](https://ploomber.
 if you become a customer, I'll be able to justify a higher budget for these
 experiments!). But I doubt that repeating the experiments would flip the conclusions.
 
-If you want to run the benchmark, here's the [source code](https://github.com/edublancas/posts/tree/main/html-minify-for-llm) If
-you want to play with the pre-processing pipelines, try this demo app: https://orange-sea-7185.ploomberapp.io, it'll allow
+If you want to run the benchmark, here's the [source code](https://github.com/edublancas/posts/tree/main/html-minify-for-llm). If
+you want to play with the pre-processing pipelines, try this demo app: [https://orange-sea-7185.ploomberapp.io](https://orange-sea-7185.ploomberapp.io), it'll allow
 you to enter a URL and estimate the savings.
 
 If you have questions, ping me on [X](https://x.com/edublancas).
