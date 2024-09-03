@@ -122,6 +122,11 @@ I was surprised by the extraction quality of GPT-4o (but then sadly surprised wh
 
 I did a quick demo using Streamlit, you can check it out here: [https://orange-resonance-9766.ploomberapp.io](https://orange-resonance-9766.ploomberapp.io), the source code is on [GitHub](https://github.com/edublancas/posts/tree/main/ai-web-scraping) (Spoiler: don't expect anything polished).
 
+
+I wanted to test more tables; however, since that'd involve a higher OpenAI bill, I only tried a handful of them. (check out my [startup](https://ploomber.io/),
+if you become a customer, I'll be able to justify a higher budget for these
+experiments!).
+
 Some stuff I'd like to try if I had more time:
 
 1. Capture browser events: the current demo is a one-off process: users enter the URL and an initial XPath. This isn't great UX as it'd be better to ask the user to click on the table they want to extract, and to provide some sample rows so the model can understand the structure a bit better.
