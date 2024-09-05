@@ -84,18 +84,18 @@ analytics:
 # Site Author
 author:
   name             : "Eduardo Blancas"
-  avatar           : /files/photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  # avatar           : /files/photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
-  location         : "Boston, MA"
+  # location         : ""
   email            : edu@blancas.io
-  uri              :
+  uri              : https://ploomber.io
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : edublancas
+  # github           : edublancas
   gitlab           :
   google_plus      :
   keybase          :
