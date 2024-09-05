@@ -40,7 +40,7 @@ This answer also involves structure understanding: it first has to find the row 
 
 ![25th-edition](/assets/images/html-minify-for-llm/25th-edition.png)
 
-You can see all the questions in the source code (link at the end of the post).
+You can see all the questions in the [source code.](https://github.com/edublancas/posts/tree/main/html-minify-for-llm)
 
 ## Experimental setup: pre-processing
 
