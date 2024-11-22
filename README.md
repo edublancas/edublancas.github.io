@@ -17,6 +17,10 @@ If things break, try removing `Gemfile.lock`.
 
 Add new posts:
 
+```sh
+python new.py shinylive
+```
+
 1. Put the md file in `_posts`, don't forget the front matter
 2. Move images to `assets/images`
 3. Update the paths to the images
