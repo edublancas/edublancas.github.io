@@ -3,12 +3,12 @@ layout: post
 title: "How do AI agents work, anyway?"
 comments: false
 ---
-
+<!-- 
 At [work](https://ploomber.io/), we've initiated several projects incorporating
 AI agents into our operations and product, which sparked my interest in better understanding
 the technology. While exploring resources, I noticed a significant gap
 between the concepts and  implementations so I chose to examine one
-framework (`smolagents`) in detail to understand how it works.
+framework (`smolagents`) in detail to understand how it works. -->
 
 In this post, I'll provide a brief conceptual introduction to AI agents and analyze
 the implementation of the `smolagents` library by examining its OpenAI API calls using
