@@ -18,12 +18,15 @@ If things break, try removing `Gemfile.lock`.
 Add new posts:
 
 ```sh
-python new.py shinylive
+python new.py POST_NAME
 ```
 
-1. Put the md file in `_posts`, don't forget the front matter
-2. Move images to `assets/images`
-3. Update the paths to the images
+Running the script will create a new file in the `_posts` directory.
+
+But you still need to:
+
+1. Move images to `assets/images`
+2. Update the paths to the images in the `.md` file
 
 
 ## Resources
